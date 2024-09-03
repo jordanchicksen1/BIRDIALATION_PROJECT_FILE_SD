@@ -1,0 +1,34 @@
+{
+    "name": "Controlls",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "f602d366-7405-4660-ac6e-c7fb20933599",
+            "actions": [
+                {
+                    "name": "Aim",
+                    "type": "Value",
+                    "id": "37b76d25-65d7-449f-a751-4e8a66308d6d",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b8af9f59-a7d5-47e3-93c3-c7a1c929e63a",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Aim",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
