@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+
 public class Aim : MonoBehaviour
 {
 
     private Vector3 AimInput;
     public float rotationSpeed;
     // Start is called before the first frame update
+
     private void OnEnable()
     {
         var playerInput = new Controlls();
@@ -33,9 +35,11 @@ public class Aim : MonoBehaviour
 
     }
 
+   
     private void Update()
     {
         AimShot();
         Debug.Log(AimInput);
+        
     }
 }

@@ -6,12 +6,13 @@ using UnityEngine;
 public class BulletScript : MonoBehaviour
 {
     private int hitCount;
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionEnter2D(Collision2D collision )
     {
-        if (collision.gameObject.CompareTag("Void") || collision.gameObject.CompareTag("Enemy"))
+        if ( collision.gameObject.CompareTag("Enemy") )
         {
             Destroy(gameObject);
-        }else if (collision.gameObject.CompareTag("Platform"))
+            Destroy(collision.gameObject);
+        }else if (collision.gameObject.CompareTag("Platform") )
         {
             hitCount++;
             if (hitCount == 4)
@@ -19,6 +20,9 @@ public class BulletScript : MonoBehaviour
                 Destroy(gameObject);
                 hitCount = 0;
             }
+        }else if (collision.gameObject.CompareTag("Crate"))
+        {
+            Destroy(gameObject);
         }
 
     }
