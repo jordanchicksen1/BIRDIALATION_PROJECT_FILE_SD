@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - Bullet
   - Platform
+  - Portal
   layers:
   - Default
   - TransparentFX
