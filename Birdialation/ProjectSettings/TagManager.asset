@@ -9,14 +9,15 @@ TagManager:
   - Bullet
   - Platform
   - Crate
+  - W2
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Lock
   - Water
   - UI
-  - 
+  - Weapon
   - 
   - 
   - 
