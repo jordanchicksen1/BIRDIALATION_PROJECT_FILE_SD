@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LingShot : MonoBehaviour
+public class ingShot : MonoBehaviour
 {
     public SpringJoint2D springJoint;      // Reference to the SpringJoint2D on the projectile
     public Rigidbody2D rb;                 // Reference to the Rigidbody2D of the projectile

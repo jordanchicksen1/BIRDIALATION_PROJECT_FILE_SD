@@ -13,6 +13,9 @@ public class BuyManager : MonoBehaviour
     [SerializeField]
     private int Offset = 2;
 
+    [Header("Weapon Choices")]
+    public GameObject Sling, Cannon, Gun;
+    public Transform WeaponPosition;
 
     private void Start()
     {
@@ -76,8 +79,31 @@ public class BuyManager : MonoBehaviour
         {
 
             GameObject Weapon = hit.collider.gameObject;
-            Debug.Log(Weapon.name);
 
+            if (Weapon.name == "Sling")
+            {
+                Instantiate(Sling, WeaponPosition.position, Quaternion.identity);
+            }
+            else if (Weapon.name == "Weapon 2")
+            {
+
+            }
+            else if (Weapon.name == "Weapon 3")
+            {
+
+            }
+            else if (Weapon.name == "Weapon 4")
+            {
+
+            }
+            else if (Weapon.name == "Weapon 5")
+            {
+
+            }
+            else if (Weapon.name == "Weapon 6")
+            {
+
+            }
 
         }
     }
