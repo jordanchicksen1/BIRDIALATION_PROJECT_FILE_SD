@@ -982,7 +982,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1428549425
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1282,6 +1282,10 @@ PrefabInstance:
     - target: {fileID: 2563748269057975951, guid: 850bfdbcef38aba49bc0f004551aa666, type: 3}
       propertyPath: m_Name
       value: GameStars
+      objectReference: {fileID: 0}
+    - target: {fileID: 2563748269057975951, guid: 850bfdbcef38aba49bc0f004551aa666, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
