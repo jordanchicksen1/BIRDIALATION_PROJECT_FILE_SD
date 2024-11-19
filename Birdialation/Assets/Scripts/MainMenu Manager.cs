@@ -6,10 +6,6 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuManager : MonoBehaviour
 {
-    public GameObject Part01Button;
-    public GameObject Part02Button;
-    public GameObject Part03Button;
-
     public GameObject Part01;
     public GameObject Part02;
     public GameObject Part03;
@@ -20,10 +16,13 @@ public class MainMenuManager : MonoBehaviour
     }
     public void Next01()
     {
-        Part01Button.SetActive(false);
-        Part02Button.SetActive(true);
         Part01.SetActive(false);
         Part02.SetActive(true);
+    }
+    public void Next04()
+    {
+        Part01.SetActive(false);
+        Part03.SetActive(true);
     }
     public void Part02ButtonClicked()
     {
@@ -31,10 +30,13 @@ public class MainMenuManager : MonoBehaviour
     }
     public void Next02()
     {
-        Part02Button.SetActive(false);
-        Part03Button.SetActive(true);
         Part02.SetActive(false);
         Part03.SetActive(true);
+    }
+    public void Next05()
+    {
+        Part02.SetActive(false);
+        Part01.SetActive(true);
     }
     public void Part03ButtonClickecd()
     {
@@ -42,10 +44,12 @@ public class MainMenuManager : MonoBehaviour
     }
     public void Next03()
     {
-        Part03Button.SetActive(false);
-        Part01Button.SetActive(true);
         Part03.SetActive(false);
         Part01.SetActive(true);
     }
-
+    public void Next06()
+    {
+        Part03.SetActive(false);
+        Part02.SetActive(true);
+    }
 }
