@@ -14,8 +14,14 @@ public class BuyManager : MonoBehaviour
     private int Offset = 2;
 
     [Header("Weapon Choices")]
-    public GameObject Sling, Cannon, Gun;
+    public GameObject Sling, Cannon, Gun, Rock;
     public Transform WeaponPosition;
+
+    [Header("Rock Weapon Objects")]
+    public GameObject Controller;
+    public GameObject throwButton;
+
+   
 
     private void Start()
     {
@@ -84,15 +90,17 @@ public class BuyManager : MonoBehaviour
             {
                 Instantiate(Sling, WeaponPosition.position, Quaternion.identity);
             }
-            else if (Weapon.name == "Weapon 2")
+            else if (Weapon.name == "Gun")
             {
 
             }
-            else if (Weapon.name == "Weapon 3")
+            else if (Weapon.name == "Rock")
             {
+                Controller.SetActive(true);
+                throwButton.SetActive(true);
 
             }
-            else if (Weapon.name == "Weapon 4")
+            else if (Weapon.name == "Cannon")
             {
 
             }
