@@ -13,7 +13,6 @@ public class ShootScript : MonoBehaviour
     public GameObject Rock;
     public int rockSpeed;
     public int rockCount;
-    public GameObject Controller;
 
     public void Shoot()
     {
