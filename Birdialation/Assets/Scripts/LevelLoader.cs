@@ -7,62 +7,62 @@ public class LevelLoader : MonoBehaviour
 {
     public void Level01ButtonClicked()
     {
-        SceneManager.LoadScene("Level1");
+        SceneManager.LoadScene("BlockOutLevel1");
     }
     public void Level02ButtonClicked()
     {
-        SceneManager.LoadScene("Level2");
+        SceneManager.LoadScene("BlockOutLevel2");
     }
     public void Level03ButtonClicked()
     {
-        SceneManager.LoadScene("Level3");
+        SceneManager.LoadScene("BlockOutLevel3");
     }
     public void Level04ButtonClicked()
     {
-        SceneManager.LoadScene("Level4");
+        SceneManager.LoadScene("BlockOutLevel4");
     }
     public void Level05ButtonClicked()
     {
-        SceneManager.LoadScene("Level5");
+        SceneManager.LoadScene("BlockOutLevel5");
     }
     public void Level06ButtonClicked()
     {
-        SceneManager.LoadScene("Level6");
+        SceneManager.LoadScene("BlockOutLevel6");
     }
     public void Level07ButtonClicked()
     {
-        SceneManager.LoadScene("Level7");
+        SceneManager.LoadScene("BlockOutLevel7");
     }
     public void Level08ButtonClicked()
     {
-        SceneManager.LoadScene("Level8");
+        SceneManager.LoadScene("BlockOutLevel8");
     }
     public void Level09ButtonClicked()
     {
-        SceneManager.LoadScene("Level9");
+        SceneManager.LoadScene("BlockOutLevel9");
     }
     public void Level10ButtonClicked()
     {
-        SceneManager.LoadScene("Level10");
+        SceneManager.LoadScene("BlockOutLevel10");
     }
     public void Level11ButtonClicked()
     {
-        SceneManager.LoadScene("Level11");
+        SceneManager.LoadScene("BlockOutLevel11");
     }
     public void Level12ButtonClicked()
     {
-        SceneManager.LoadScene("Level12");
+        SceneManager.LoadScene("BlockOutLevel12");
     }
     public void Level13ButtonClicked()
     {
-        SceneManager.LoadScene("Level13");
+        SceneManager.LoadScene("BlockOutLevel13");
     }
     public void Level14ButtonClicked()
     {
-        SceneManager.LoadScene("Level14");
+        SceneManager.LoadScene("BlockOutLevel14");
     }
     public void Level15ButtonClicked()
     {
-        SceneManager.LoadScene("Level15");
+        SceneManager.LoadScene("BlockOutLevel15");
     }
 }
