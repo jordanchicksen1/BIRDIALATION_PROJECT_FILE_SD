@@ -25,6 +25,7 @@ public class BuyManager : MonoBehaviour
 
     private void Start()
     {
+        
     }
     public void Buy()
     {
@@ -88,7 +89,7 @@ public class BuyManager : MonoBehaviour
 
             if (Weapon.name == "Sling")
             {
-                Instantiate(Sling, WeaponPosition.position, Quaternion.identity);
+                BuySlingShot();
             }
             else if (Weapon.name == "Gun")
             {
@@ -114,5 +115,11 @@ public class BuyManager : MonoBehaviour
             }
 
         }
+    }
+
+    public void BuySlingShot()
+    {
+        Instantiate(Sling, WeaponPosition.position, Quaternion.identity);
+
     }
 }

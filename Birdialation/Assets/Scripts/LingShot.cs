@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class SlingShot : MonoBehaviour
@@ -10,9 +11,22 @@ public class SlingShot : MonoBehaviour
     public float maxDragDistance = 3.0f;   // Maximum distance the projectile can be dragged
 
     private bool isDragging = false;       // Flag to track whether the projectile is being dragged
+    public GameObject newRock;
 
+    [SerializeField]
+    public GameObject WeaponPosition;
+    public Slingshotmanager manager;
+
+
+    private void Start()
+    {
+        WeaponPosition = GameObject.FindGameObjectWithTag("SJ");
+
+    }
     void Update()
     {
+       
+
         // Detect touch input on mobile
         if (Input.touchCount > 0)
         {
@@ -52,11 +66,16 @@ public class SlingShot : MonoBehaviour
             }
            
         }
+
+       
     }
     IEnumerator Break()
     {
         yield return new WaitForSeconds(0.1f);
         Destroy(springJoint);
+        yield return new WaitForSeconds(2);
+        manager.NextWeapon();
+       
 
     }
     bool IsTouchingProjectile(Vector2 touchPosition)
@@ -64,4 +83,6 @@ public class SlingShot : MonoBehaviour
         // Check if the touch is close to the projectile (you can adjust the distance check)
         return Vector2.Distance(touchPosition, rb.position) < 0.5f;
     }
+
+    
 }
