@@ -13,6 +13,11 @@ TagManager:
   - Bush
   - Flower
   - BigRock
+  - Rock
+  - SJ
+  - SA
+  - SP
+  - IceBlock
   layers:
   - Default
   - TransparentFX
