@@ -321,6 +321,10 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 1580580469014083522, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: m_Name
+      value: Bazooka
+      objectReference: {fileID: 0}
     - target: {fileID: 2282857771458657488, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
       propertyPath: m_SortingOrder
       value: 2
@@ -477,7 +481,19 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6660258702647097382, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: m_Name
+      value: Rock
+      objectReference: {fileID: 0}
     - target: {fileID: 6739768340128038668, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7041298945736869162, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8572b220f8c69324aaa9ee1da07c751d, type: 3}
+    - target: {fileID: 7041298945736869162, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
@@ -521,6 +537,22 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7879698215442106831, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: -0.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 7879698215442106831, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: m_LocalScale.y
+      value: -0.059999995
+      objectReference: {fileID: 0}
+    - target: {fileID: 7879698215442106831, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: m_LocalScale.z
+      value: -0.059999995
+      objectReference: {fileID: 0}
+    - target: {fileID: 7879698215442106831, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8338622430830018434, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
       propertyPath: m_SortingOrder
       value: 1
@@ -533,6 +565,10 @@ PrefabInstance:
       propertyPath: WeaponPosition
       value: 
       objectReference: {fileID: 656761257}
+    - target: {fileID: 9050553662681420853, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: m_Name
+      value: Bazooka
+      objectReference: {fileID: 0}
     - target: {fileID: 9145601414815904509, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -660,7 +696,7 @@ RectTransform:
   m_GameObject: {fileID: 407175073}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.029980611}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
+  m_LocalScale: {x: 0.045000006, y: 0.056250006, z: 0.056250006}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1884562723}
