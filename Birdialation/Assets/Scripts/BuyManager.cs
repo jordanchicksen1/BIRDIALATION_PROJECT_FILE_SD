@@ -14,7 +14,7 @@ public class BuyManager : MonoBehaviour
     private int Offset = 2;
 
     [Header("Weapon Choices")]
-    public GameObject Sling, Cannon, Gun, Rock;
+    public GameObject Sling, Cannon, Sniper, Rock;
     public Transform WeaponPosition;
 
     [Header("Rock Weapon Objects")]
@@ -91,8 +91,9 @@ public class BuyManager : MonoBehaviour
             {
                 Instantiate(Sling, WeaponPosition.position, Quaternion.identity);
             }
-            else if (Weapon.name == "Gun")
+            else if (Weapon.name == "Sniper")
             {
+                Instantiate(Sniper, WeaponPosition.position, Quaternion.identity);
 
             }
             else if (Weapon.name == "Rock")
