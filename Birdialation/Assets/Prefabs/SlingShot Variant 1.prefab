@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 763137251706260391, guid: cce1798ff6a1d4542b24dce011ecb670, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Bullet
       objectReference: {fileID: 0}
     - target: {fileID: 1439741980786788588, guid: cce1798ff6a1d4542b24dce011ecb670, type: 3}
       propertyPath: m_LocalPosition.x
@@ -132,7 +132,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 763137251706260391, guid: cce1798ff6a1d4542b24dce011ecb670, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Bullet
       objectReference: {fileID: 0}
     - target: {fileID: 1439741980786788588, guid: cce1798ff6a1d4542b24dce011ecb670, type: 3}
       propertyPath: m_LocalPosition.x
@@ -254,7 +254,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 763137251706260391, guid: cce1798ff6a1d4542b24dce011ecb670, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Bullet
       objectReference: {fileID: 0}
     - target: {fileID: 1439741980786788588, guid: cce1798ff6a1d4542b24dce011ecb670, type: 3}
       propertyPath: m_LocalPosition.x
@@ -376,7 +376,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 763137251706260391, guid: cce1798ff6a1d4542b24dce011ecb670, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Bullet
       objectReference: {fileID: 0}
     - target: {fileID: 1439741980786788588, guid: cce1798ff6a1d4542b24dce011ecb670, type: 3}
       propertyPath: m_LocalPosition.x
@@ -498,7 +498,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 763137251706260391, guid: cce1798ff6a1d4542b24dce011ecb670, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Bullet
       objectReference: {fileID: 0}
     - target: {fileID: 1439741980786788588, guid: cce1798ff6a1d4542b24dce011ecb670, type: 3}
       propertyPath: m_LocalPosition.x
@@ -620,7 +620,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 763137251706260391, guid: cce1798ff6a1d4542b24dce011ecb670, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Bullet
       objectReference: {fileID: 0}
     - target: {fileID: 1439741980786788588, guid: cce1798ff6a1d4542b24dce011ecb670, type: 3}
       propertyPath: m_LocalPosition.x

@@ -10,5 +10,10 @@ public class EnemyScript : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        else if (collision.gameObject.CompareTag("Bullet"))
+        {
+            Destroy(gameObject);
+            print("kkkkkkkkkkkkkkkkkkkkkkkkk");
+        }
     }
 }

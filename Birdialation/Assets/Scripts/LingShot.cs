@@ -75,7 +75,6 @@ public class SlingShot : MonoBehaviour
         Destroy(springJoint);
         yield return new WaitForSeconds(2);
         manager.NextWeapon();
-       
 
     }
     bool IsTouchingProjectile(Vector2 touchPosition)

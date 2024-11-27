@@ -27,6 +27,14 @@ public class SaveManager : MonoBehaviour
         public bool Level14Unclocked;
         public bool Level15Unclocked;
 
+        [Header("Weapons")]
+        public bool weapon1Unlocked;
+        public bool weapon2Unlocked;
+        public bool weapon3Unlocked;
+        public bool weapon4Unlocked;
+        public bool weapon5Unlocked;
+        public bool weapon6Unlocked;
+
 
     }
 
