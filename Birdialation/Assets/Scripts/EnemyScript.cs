@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.SearchService;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EnemyScript : MonoBehaviour
 {
@@ -9,11 +11,12 @@ public class EnemyScript : MonoBehaviour
         if (collision.gameObject.CompareTag("Crate"))
         {
             Destroy(gameObject);
+            SceneManager.LoadScene("Part01");
         }
         else if (collision.gameObject.CompareTag("Bullet"))
         {
             Destroy(gameObject);
-            print("kkkkkkkkkkkkkkkkkkkkkkkkk");
+            SceneManager.LoadScene("Part01");
         }
     }
 }
