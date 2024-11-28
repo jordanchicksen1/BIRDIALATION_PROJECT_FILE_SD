@@ -9,11 +9,11 @@ public class rope : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Bullet"))
+         if (collision.gameObject.CompareTag("Bullet"))
         {
 
             rockRB = GetComponent<Rigidbody2D>();
-            rockRB.bodyType = RigidbodyType2D.Kinematic;
+            rockRB.isKinematic = true;
             Destroy(gameObject);
            
 
