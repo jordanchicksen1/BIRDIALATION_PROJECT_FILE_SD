@@ -19,6 +19,7 @@ TagManager:
   - SP
   - IceBlock
   - Bazooka
+  - Rope
   layers:
   - Default
   - TransparentFX
