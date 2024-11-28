@@ -7,25 +7,27 @@ public class CoinManager : MonoBehaviour
     public int Coins = 0;
     public TextMeshProUGUI coinCount;
 
-    public void AddCoin()
-    {
-        Coins++;
-        UpdateCoinUI();
-    }
+    public SaveManager saveManager;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other)
         {
-            Destroy(gameObject);
-            Coins++;
+            saveManager.saveData.coins++;
             UpdateCoinUI();
+            saveManager.SaveGame();
+            Destroy(gameObject);
         }
     }
 
     private void UpdateCoinUI()
     {
-        coinCount.text = "Coins: " + Coins++;
+        coinCount.text = "" + saveManager.saveData.coins;
         
+    }
+
+    public void Update()
+    {
+        UpdateCoinUI();
     }
 }
