@@ -27,7 +27,6 @@ public class BulletScript : MonoBehaviour
         if (collision.gameObject.CompareTag("Rope"))
         {
             Destroy(gameObject);
-            Destroy(collision.gameObject);
         }
 
 
