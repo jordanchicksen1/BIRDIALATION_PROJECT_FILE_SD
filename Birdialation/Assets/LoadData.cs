@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class SaveManager : MonoBehaviour
@@ -34,25 +33,24 @@ public class SaveManager : MonoBehaviour
         public bool weapon4Unlocked;
         public bool weapon5Unlocked;
         public bool weapon6Unlocked;
-
-
     }
 
-    public static SaveManager Instance { get; private set; } // Singleton instance
+    public static SaveManager Instance { get; private set; }
 
-    private SaveData saveData = new SaveData();
+    public SaveData saveData = new SaveData();
 
     private void Awake()
     {
-        // Singleton pattern to ensure only one instance of SaveManager exists
-        if (Instance != null && Instance != this)
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject); // Ensure SaveManager persists across scenes
+        }
+        else
         {
             Destroy(gameObject);
-            return;
         }
 
-        Instance = this;
-        DontDestroyOnLoad(gameObject); // Persist across scenes
     }
 
     private void Start()
@@ -63,22 +61,12 @@ public class SaveManager : MonoBehaviour
     public void UpdateCoins(int value)
     {
         saveData.coins = value;
-        AutoSave();
+        SaveGame();
     }
 
     public void UpdateStars(int value)
     {
         saveData.stars = value;
-        AutoSave();
-    }
-
-    public void FixedUpdate()
-    {
-        AutoSave();
-    }
-
-    private void AutoSave()
-    {
         SaveGame();
     }
 
@@ -118,4 +106,6 @@ public class SaveManager : MonoBehaviour
         saveData = new SaveData();
         Debug.Log("Game data reset.");
     }
+
+    
 }
