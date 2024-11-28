@@ -11,8 +11,13 @@ public class rope : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Bullet"))
         {
+
             rockRB = GetComponent<Rigidbody2D>();
             rockRB.bodyType = RigidbodyType2D.Kinematic;
+            Destroy(gameObject);
+           
+
+            
         }
     }
 }
