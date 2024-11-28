@@ -13,13 +13,24 @@ public class SlingShot : MonoBehaviour
     private bool isDragging = false;       // Flag to track whether the projectile is being dragged
     public GameObject newRock;
 
+    public bool workForFUckSake;
+
     [SerializeField]
     public GameObject WeaponPosition;
     public Slingshotmanager manager;
 
+    [Header("Bazooka")]
+    [SerializeField]
+    private GameObject Bazooka;
+    [SerializeField]
+    private Explosion2D ExploadeScript;
+
     private void Start()
     {
+        Bazooka = GameObject.FindGameObjectWithTag("Bazooka");
         WeaponPosition = GameObject.FindGameObjectWithTag("SJ");
+        
+        
 
         // Initialize LineRenderer if not set in the inspector
         if (lineRenderer == null)
@@ -32,8 +43,18 @@ public class SlingShot : MonoBehaviour
         lineRenderer.enabled = false;  // Hide the line initially
     }
 
+    private void Awake()
+    {
+        if (Bazooka != null)
+        {
+            ExploadeScript = GetComponent<Explosion2D>();
+        }
+        else { return; }
+    }
+
     void Update()
     {
+
         // Detect touch input on mobile
         if (Input.touchCount > 0)
         {
@@ -74,17 +95,33 @@ public class SlingShot : MonoBehaviour
                 rb.isKinematic = false;  // Revert back to dynamic when the drag is over, allowing the physics to apply
                 lineRenderer.enabled = false; // Hide the line
                 StartCoroutine(Break());
+
             }
         }
     }
 
     IEnumerator Break()
     {
-        yield return new WaitForSeconds(0.1f);
-        Destroy(springJoint);
-        yield return new WaitForSeconds(2);
-        manager.NextWeapon();
-    }
+        if (Bazooka != null)
+        {
+            
+            yield return new WaitForSeconds(0.1f);
+            Destroy(springJoint);
+            yield return new WaitForSeconds(0.1f);
+            
+            manager.NextWeapon();
+
+        }
+
+        else
+        {
+            yield return new WaitForSeconds(0.1f);
+            Destroy(springJoint);
+            yield return new WaitForSeconds(2);
+            manager.NextWeapon();
+        }
+    
+        }
 
     bool IsTouchingProjectile(Vector2 touchPosition)
     {

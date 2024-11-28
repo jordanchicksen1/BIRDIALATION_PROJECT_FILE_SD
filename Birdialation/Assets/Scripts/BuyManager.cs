@@ -14,14 +14,17 @@ public class BuyManager : MonoBehaviour
     private int Offset = 2;
 
     [Header("Weapon Choices")]
-    public GameObject Sling, Cannon, Sniper, Rock;
+    public GameObject Sling, Cannon, Sniper, Bazooka;
     public Transform WeaponPosition;
 
     [Header("Rock Weapon Objects")]
     public GameObject Controller;
     public GameObject throwButton;
 
-   
+    
+
+
+
 
     private void Start()
     {
@@ -96,10 +99,9 @@ public class BuyManager : MonoBehaviour
                 Instantiate(Sniper, WeaponPosition.position, Quaternion.identity);
 
             }
-            else if (Weapon.name == "Rock")
+            else if (Weapon.name == "Bazooka")
             {
-                Controller.SetActive(true);
-                throwButton.SetActive(true);
+                Instantiate(Bazooka, WeaponPosition.position, Quaternion.identity);
 
             }
             else if (Weapon.name == "Cannon")
