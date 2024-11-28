@@ -167,6 +167,7 @@ Transform:
   - {fileID: 1907336372}
   - {fileID: 1784642791}
   - {fileID: 1550560279}
+  - {fileID: 194289267}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &85796868
@@ -186,6 +187,30 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 67641088185877368, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock1
+      value: 
+      objectReference: {fileID: 1682849868}
+    - target: {fileID: 67641088185877368, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock2
+      value: 
+      objectReference: {fileID: 321991843}
+    - target: {fileID: 67641088185877368, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock3
+      value: 
+      objectReference: {fileID: 155138343}
+    - target: {fileID: 67641088185877368, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock4
+      value: 
+      objectReference: {fileID: 210445735}
+    - target: {fileID: 67641088185877368, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock5
+      value: 
+      objectReference: {fileID: 1172455423}
+    - target: {fileID: 67641088185877368, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock6
+      value: 
+      objectReference: {fileID: 1277574605}
+    - target: {fileID: 67641088185877368, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
       propertyPath: Sniper
       value: 
       objectReference: {fileID: 329678484790499946, guid: 47c3aedafde7fdc4a8562e8bda6764f9, type: 3}
@@ -194,9 +219,41 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 329678484790499946, guid: a5181e7a885b6c34c869e79ca0619bf6, type: 3}
     - target: {fileID: 67641088185877368, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: saveManager
+      value: 
+      objectReference: {fileID: 194289268}
+    - target: {fileID: 67641088185877368, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
       propertyPath: WeaponPosition
       value: 
       objectReference: {fileID: 656761257}
+    - target: {fileID: 154533783768647767, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock1
+      value: 
+      objectReference: {fileID: 1682849868}
+    - target: {fileID: 154533783768647767, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock2
+      value: 
+      objectReference: {fileID: 321991843}
+    - target: {fileID: 154533783768647767, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock3
+      value: 
+      objectReference: {fileID: 155138343}
+    - target: {fileID: 154533783768647767, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock4
+      value: 
+      objectReference: {fileID: 210445735}
+    - target: {fileID: 154533783768647767, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock5
+      value: 
+      objectReference: {fileID: 1172455423}
+    - target: {fileID: 154533783768647767, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock6
+      value: 
+      objectReference: {fileID: 1277574605}
+    - target: {fileID: 154533783768647767, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: saveManager
+      value: 
+      objectReference: {fileID: 194289268}
     - target: {fileID: 628750001171621071, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
       propertyPath: m_SortingOrder
       value: 1
@@ -205,6 +262,34 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 1087783047136160778, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock1
+      value: 
+      objectReference: {fileID: 1682849868}
+    - target: {fileID: 1087783047136160778, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock2
+      value: 
+      objectReference: {fileID: 321991843}
+    - target: {fileID: 1087783047136160778, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock3
+      value: 
+      objectReference: {fileID: 155138343}
+    - target: {fileID: 1087783047136160778, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock4
+      value: 
+      objectReference: {fileID: 210445735}
+    - target: {fileID: 1087783047136160778, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock5
+      value: 
+      objectReference: {fileID: 1172455423}
+    - target: {fileID: 1087783047136160778, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock6
+      value: 
+      objectReference: {fileID: 1277574605}
+    - target: {fileID: 1087783047136160778, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: saveManager
+      value: 
+      objectReference: {fileID: 194289268}
     - target: {fileID: 1156147905849652432, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
       propertyPath: m_SortingOrder
       value: 1
@@ -321,6 +406,34 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 1508875787705292105, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock1
+      value: 
+      objectReference: {fileID: 1682849868}
+    - target: {fileID: 1508875787705292105, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock2
+      value: 
+      objectReference: {fileID: 321991843}
+    - target: {fileID: 1508875787705292105, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock3
+      value: 
+      objectReference: {fileID: 155138343}
+    - target: {fileID: 1508875787705292105, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock4
+      value: 
+      objectReference: {fileID: 210445735}
+    - target: {fileID: 1508875787705292105, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock5
+      value: 
+      objectReference: {fileID: 1172455423}
+    - target: {fileID: 1508875787705292105, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock6
+      value: 
+      objectReference: {fileID: 1277574605}
+    - target: {fileID: 1508875787705292105, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: saveManager
+      value: 
+      objectReference: {fileID: 194289268}
     - target: {fileID: 1517473397384126977, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
       propertyPath: m_SortingOrder
       value: 2
@@ -337,6 +450,34 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2474035818205589433, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock1
+      value: 
+      objectReference: {fileID: 1682849868}
+    - target: {fileID: 2474035818205589433, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock2
+      value: 
+      objectReference: {fileID: 321991843}
+    - target: {fileID: 2474035818205589433, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock3
+      value: 
+      objectReference: {fileID: 155138343}
+    - target: {fileID: 2474035818205589433, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock4
+      value: 
+      objectReference: {fileID: 210445735}
+    - target: {fileID: 2474035818205589433, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock5
+      value: 
+      objectReference: {fileID: 1172455423}
+    - target: {fileID: 2474035818205589433, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock6
+      value: 
+      objectReference: {fileID: 1277574605}
+    - target: {fileID: 2474035818205589433, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: saveManager
+      value: 
+      objectReference: {fileID: 194289268}
     - target: {fileID: 2521425103177882423, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -362,6 +503,30 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2887811897347499333, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock1
+      value: 
+      objectReference: {fileID: 1682849868}
+    - target: {fileID: 2887811897347499333, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock2
+      value: 
+      objectReference: {fileID: 321991843}
+    - target: {fileID: 2887811897347499333, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock3
+      value: 
+      objectReference: {fileID: 155138343}
+    - target: {fileID: 2887811897347499333, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock4
+      value: 
+      objectReference: {fileID: 210445735}
+    - target: {fileID: 2887811897347499333, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock5
+      value: 
+      objectReference: {fileID: 1172455423}
+    - target: {fileID: 2887811897347499333, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock6
+      value: 
+      objectReference: {fileID: 1277574605}
+    - target: {fileID: 2887811897347499333, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
       propertyPath: Sniper
       value: 
       objectReference: {fileID: 329678484790499946, guid: 47c3aedafde7fdc4a8562e8bda6764f9, type: 3}
@@ -369,6 +534,10 @@ PrefabInstance:
       propertyPath: Bazooka
       value: 
       objectReference: {fileID: 329678484790499946, guid: a5181e7a885b6c34c869e79ca0619bf6, type: 3}
+    - target: {fileID: 2887811897347499333, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: saveManager
+      value: 
+      objectReference: {fileID: 194289268}
     - target: {fileID: 2887811897347499333, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
       propertyPath: WeaponPosition
       value: 
@@ -450,6 +619,30 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4110339195681386086, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock1
+      value: 
+      objectReference: {fileID: 1682849868}
+    - target: {fileID: 4110339195681386086, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock2
+      value: 
+      objectReference: {fileID: 321991843}
+    - target: {fileID: 4110339195681386086, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock3
+      value: 
+      objectReference: {fileID: 155138343}
+    - target: {fileID: 4110339195681386086, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock4
+      value: 
+      objectReference: {fileID: 210445735}
+    - target: {fileID: 4110339195681386086, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock5
+      value: 
+      objectReference: {fileID: 1172455423}
+    - target: {fileID: 4110339195681386086, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock6
+      value: 
+      objectReference: {fileID: 1277574605}
+    - target: {fileID: 4110339195681386086, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
       propertyPath: Sniper
       value: 
       objectReference: {fileID: 329678484790499946, guid: 47c3aedafde7fdc4a8562e8bda6764f9, type: 3}
@@ -458,9 +651,41 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 329678484790499946, guid: a5181e7a885b6c34c869e79ca0619bf6, type: 3}
     - target: {fileID: 4110339195681386086, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: saveManager
+      value: 
+      objectReference: {fileID: 194289268}
+    - target: {fileID: 4110339195681386086, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
       propertyPath: WeaponPosition
       value: 
       objectReference: {fileID: 656761257}
+    - target: {fileID: 4172933702707150522, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock1
+      value: 
+      objectReference: {fileID: 1682849868}
+    - target: {fileID: 4172933702707150522, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock2
+      value: 
+      objectReference: {fileID: 321991843}
+    - target: {fileID: 4172933702707150522, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock3
+      value: 
+      objectReference: {fileID: 155138343}
+    - target: {fileID: 4172933702707150522, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock4
+      value: 
+      objectReference: {fileID: 210445735}
+    - target: {fileID: 4172933702707150522, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock5
+      value: 
+      objectReference: {fileID: 1172455423}
+    - target: {fileID: 4172933702707150522, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock6
+      value: 
+      objectReference: {fileID: 1277574605}
+    - target: {fileID: 4172933702707150522, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: saveManager
+      value: 
+      objectReference: {fileID: 194289268}
     - target: {fileID: 4488831749888167768, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
       propertyPath: m_Name
       value: Sniper
@@ -478,6 +703,30 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5516038668761225900, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock1
+      value: 
+      objectReference: {fileID: 1682849868}
+    - target: {fileID: 5516038668761225900, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock2
+      value: 
+      objectReference: {fileID: 321991843}
+    - target: {fileID: 5516038668761225900, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock3
+      value: 
+      objectReference: {fileID: 155138343}
+    - target: {fileID: 5516038668761225900, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock4
+      value: 
+      objectReference: {fileID: 210445735}
+    - target: {fileID: 5516038668761225900, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock5
+      value: 
+      objectReference: {fileID: 1172455423}
+    - target: {fileID: 5516038668761225900, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock6
+      value: 
+      objectReference: {fileID: 1277574605}
+    - target: {fileID: 5516038668761225900, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
       propertyPath: Sniper
       value: 
       objectReference: {fileID: 329678484790499946, guid: 47c3aedafde7fdc4a8562e8bda6764f9, type: 3}
@@ -485,6 +734,10 @@ PrefabInstance:
       propertyPath: Bazooka
       value: 
       objectReference: {fileID: 329678484790499946, guid: a5181e7a885b6c34c869e79ca0619bf6, type: 3}
+    - target: {fileID: 5516038668761225900, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: saveManager
+      value: 
+      objectReference: {fileID: 194289268}
     - target: {fileID: 5516038668761225900, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
       propertyPath: WeaponPosition
       value: 
@@ -505,6 +758,34 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6875682655719635505, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock1
+      value: 
+      objectReference: {fileID: 1682849868}
+    - target: {fileID: 6875682655719635505, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock2
+      value: 
+      objectReference: {fileID: 321991843}
+    - target: {fileID: 6875682655719635505, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock3
+      value: 
+      objectReference: {fileID: 155138343}
+    - target: {fileID: 6875682655719635505, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock4
+      value: 
+      objectReference: {fileID: 210445735}
+    - target: {fileID: 6875682655719635505, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock5
+      value: 
+      objectReference: {fileID: 1172455423}
+    - target: {fileID: 6875682655719635505, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock6
+      value: 
+      objectReference: {fileID: 1277574605}
+    - target: {fileID: 6875682655719635505, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: saveManager
+      value: 
+      objectReference: {fileID: 194289268}
     - target: {fileID: 7041298945736869162, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -542,6 +823,30 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7512766347593039268, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock1
+      value: 
+      objectReference: {fileID: 1682849868}
+    - target: {fileID: 7512766347593039268, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock2
+      value: 
+      objectReference: {fileID: 321991843}
+    - target: {fileID: 7512766347593039268, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock3
+      value: 
+      objectReference: {fileID: 155138343}
+    - target: {fileID: 7512766347593039268, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock4
+      value: 
+      objectReference: {fileID: 210445735}
+    - target: {fileID: 7512766347593039268, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock5
+      value: 
+      objectReference: {fileID: 1172455423}
+    - target: {fileID: 7512766347593039268, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock6
+      value: 
+      objectReference: {fileID: 1277574605}
+    - target: {fileID: 7512766347593039268, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
       propertyPath: Sniper
       value: 
       objectReference: {fileID: 329678484790499946, guid: 47c3aedafde7fdc4a8562e8bda6764f9, type: 3}
@@ -549,6 +854,10 @@ PrefabInstance:
       propertyPath: Bazooka
       value: 
       objectReference: {fileID: 329678484790499946, guid: a5181e7a885b6c34c869e79ca0619bf6, type: 3}
+    - target: {fileID: 7512766347593039268, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: saveManager
+      value: 
+      objectReference: {fileID: 194289268}
     - target: {fileID: 7512766347593039268, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
       propertyPath: WeaponPosition
       value: 
@@ -578,6 +887,30 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8750403086188586418, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock1
+      value: 
+      objectReference: {fileID: 1682849868}
+    - target: {fileID: 8750403086188586418, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock2
+      value: 
+      objectReference: {fileID: 321991843}
+    - target: {fileID: 8750403086188586418, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock3
+      value: 
+      objectReference: {fileID: 155138343}
+    - target: {fileID: 8750403086188586418, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock4
+      value: 
+      objectReference: {fileID: 210445735}
+    - target: {fileID: 8750403086188586418, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock5
+      value: 
+      objectReference: {fileID: 1172455423}
+    - target: {fileID: 8750403086188586418, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Lock6
+      value: 
+      objectReference: {fileID: 1277574605}
+    - target: {fileID: 8750403086188586418, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
       propertyPath: Sniper
       value: 
       objectReference: {fileID: 329678484790499946, guid: 47c3aedafde7fdc4a8562e8bda6764f9, type: 3}
@@ -585,6 +918,10 @@ PrefabInstance:
       propertyPath: Bazooka
       value: 
       objectReference: {fileID: 329678484790499946, guid: a5181e7a885b6c34c869e79ca0619bf6, type: 3}
+    - target: {fileID: 8750403086188586418, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: saveManager
+      value: 
+      objectReference: {fileID: 194289268}
     - target: {fileID: 8750403086188586418, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
       propertyPath: WeaponPosition
       value: 
@@ -610,6 +947,89 @@ PrefabInstance:
       addedObject: {fileID: 407175074}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+--- !u!1 &155138343 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5983810680575814152, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+  m_PrefabInstance: {fileID: 85796868}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &194289266
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 194289267}
+  - component: {fileID: 194289268}
+  m_Layer: 0
+  m_Name: Data Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &194289267
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 194289266}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 25889339}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &194289268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 194289266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7500da283aca07740a7f3bbf99970c93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  saveData:
+    coins: 0
+    stars: 0
+    Level1Unclocked: 0
+    Level2Unclocked: 0
+    Level3Unclocked: 0
+    Level4Unclocked: 0
+    Level5Unclocked: 0
+    Level6Unclocked: 0
+    Level7Unclocked: 0
+    Level8Unclocked: 0
+    Level9Unclocked: 0
+    Level10Unclocked: 0
+    Level11Unclocked: 0
+    Level12Unclocked: 0
+    Level13Unclocked: 0
+    Level14Unclocked: 0
+    Level15Unclocked: 0
+    weapon1Unlocked: 0
+    weapon2Unlocked: 0
+    weapon3Unlocked: 0
+    weapon4Unlocked: 0
+    weapon5Unlocked: 0
+    weapon6Unlocked: 0
+--- !u!1 &210445735 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4734254873587619461, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+  m_PrefabInstance: {fileID: 85796868}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &321991843 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3004164676154469737, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+  m_PrefabInstance: {fileID: 85796868}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &387608853
 GameObject:
   m_ObjectHideFlags: 0
@@ -2094,6 +2514,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1 &1172455423 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9117385250224229463, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+  m_PrefabInstance: {fileID: 85796868}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1277574605 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4810105198994836941, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+  m_PrefabInstance: {fileID: 85796868}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1297774507
 GameObject:
   m_ObjectHideFlags: 0
@@ -2502,6 +2932,11 @@ Transform:
   - {fileID: 656761257}
   m_Father: {fileID: 25889339}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1682849868 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5184741581686504820, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+  m_PrefabInstance: {fileID: 85796868}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1692566766
 GameObject:
   m_ObjectHideFlags: 0
