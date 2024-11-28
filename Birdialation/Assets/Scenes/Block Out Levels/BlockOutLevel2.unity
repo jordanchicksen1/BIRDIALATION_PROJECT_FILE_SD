@@ -2518,6 +2518,63 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &639986807
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8240698001757844540, guid: f35e6560bbf398e4d87e0e488d37131a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.71
+      objectReference: {fileID: 0}
+    - target: {fileID: 8240698001757844540, guid: f35e6560bbf398e4d87e0e488d37131a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.4298615
+      objectReference: {fileID: 0}
+    - target: {fileID: 8240698001757844540, guid: f35e6560bbf398e4d87e0e488d37131a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8240698001757844540, guid: f35e6560bbf398e4d87e0e488d37131a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8240698001757844540, guid: f35e6560bbf398e4d87e0e488d37131a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8240698001757844540, guid: f35e6560bbf398e4d87e0e488d37131a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8240698001757844540, guid: f35e6560bbf398e4d87e0e488d37131a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8240698001757844540, guid: f35e6560bbf398e4d87e0e488d37131a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8240698001757844540, guid: f35e6560bbf398e4d87e0e488d37131a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8240698001757844540, guid: f35e6560bbf398e4d87e0e488d37131a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9155517955601576513, guid: f35e6560bbf398e4d87e0e488d37131a, type: 3}
+      propertyPath: m_Name
+      value: CoinSprite (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f35e6560bbf398e4d87e0e488d37131a, type: 3}
 --- !u!1 &792952230
 GameObject:
   m_ObjectHideFlags: 0
@@ -3994,6 +4051,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9c5153d1110ec314892fad6257dc8c0c, type: 3}
+--- !u!1001 &1918601003
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8240698001757844540, guid: f35e6560bbf398e4d87e0e488d37131a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 8240698001757844540, guid: f35e6560bbf398e4d87e0e488d37131a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 8240698001757844540, guid: f35e6560bbf398e4d87e0e488d37131a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8240698001757844540, guid: f35e6560bbf398e4d87e0e488d37131a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8240698001757844540, guid: f35e6560bbf398e4d87e0e488d37131a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8240698001757844540, guid: f35e6560bbf398e4d87e0e488d37131a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8240698001757844540, guid: f35e6560bbf398e4d87e0e488d37131a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8240698001757844540, guid: f35e6560bbf398e4d87e0e488d37131a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8240698001757844540, guid: f35e6560bbf398e4d87e0e488d37131a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8240698001757844540, guid: f35e6560bbf398e4d87e0e488d37131a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9155517955601576513, guid: f35e6560bbf398e4d87e0e488d37131a, type: 3}
+      propertyPath: m_Name
+      value: CoinSprite (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f35e6560bbf398e4d87e0e488d37131a, type: 3}
 --- !u!1001 &2000797308
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4051,6 +4165,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ff75ee472739fd42892f79b11353f15, type: 3}
+--- !u!1001 &2002670925
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8240698001757844540, guid: f35e6560bbf398e4d87e0e488d37131a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 8240698001757844540, guid: f35e6560bbf398e4d87e0e488d37131a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.4298615
+      objectReference: {fileID: 0}
+    - target: {fileID: 8240698001757844540, guid: f35e6560bbf398e4d87e0e488d37131a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8240698001757844540, guid: f35e6560bbf398e4d87e0e488d37131a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8240698001757844540, guid: f35e6560bbf398e4d87e0e488d37131a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8240698001757844540, guid: f35e6560bbf398e4d87e0e488d37131a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8240698001757844540, guid: f35e6560bbf398e4d87e0e488d37131a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8240698001757844540, guid: f35e6560bbf398e4d87e0e488d37131a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8240698001757844540, guid: f35e6560bbf398e4d87e0e488d37131a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8240698001757844540, guid: f35e6560bbf398e4d87e0e488d37131a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9155517955601576513, guid: f35e6560bbf398e4d87e0e488d37131a, type: 3}
+      propertyPath: m_Name
+      value: CoinSprite
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f35e6560bbf398e4d87e0e488d37131a, type: 3}
 --- !u!1 &2127325583
 GameObject:
   m_ObjectHideFlags: 0
@@ -4102,3 +4273,6 @@ SceneRoots:
   - {fileID: 149707731}
   - {fileID: 1016507190}
   - {fileID: 1820032360}
+  - {fileID: 2002670925}
+  - {fileID: 639986807}
+  - {fileID: 1918601003}

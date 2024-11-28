@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class rope : MonoBehaviour
 {
-    public Rigidbody2D rockRB;
+    public GameObject rock;
 
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -12,9 +12,10 @@ public class rope : MonoBehaviour
          if (collision.gameObject.CompareTag("Bullet"))
         {
 
-            rockRB = GetComponent<Rigidbody2D>();
-            rockRB.isKinematic = true;
-            Destroy(gameObject);
+           // rockRB = GetComponent<Rigidbody2D>();
+           // rockRB.bodyType = RigidbodyType2D.Dynamic;
+           rock.AddComponent<Rigidbody2D>();
+            Destroy(gameObject, 2f);
            
 
             

@@ -20,6 +20,10 @@ TagManager:
   - IceBlock
   - Bazooka
   - Rope
+  - BigRock2
+  - World1
+  - World2
+  - World3
   layers:
   - Default
   - TransparentFX
