@@ -8,16 +8,13 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/MenuScenes/MainMenu.unity
     guid: 793c4f4de873b984c8c0b049818baa74
-  - enabled: 1
-    path: Assets/Scenes/MenuScenes/Part01.unity
-    guid: b1da77f8b063aa44e927b28122f46f23
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/MenuScenes/Part02.unity
     guid: 510aa6d8804203e4599c7d7d8ea491ac
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/MenuScenes/Part03.unity
     guid: ccaf3769cf341c94888b2d3345ec7416
   - enabled: 0
@@ -60,7 +57,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Levels/Level13.unity
     guid: 817e0c3b10bf6344391bc21948f36bb0
   - enabled: 0
-    path: Assets/Scenes/Levels/Level14.unity
+    path: Assets/Scenes/Levels/level14.unity
     guid: 514313f538d3f3d4bbfa5066dc8bc6fe
   - enabled: 0
     path: Assets/Scenes/Levels/Level15.unity
@@ -71,6 +68,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Block Out Levels/BlockOutLevel2.unity
     guid: 243d8f5da62e02b428a5ab6eb23832e9
+  - enabled: 1
+    path: Assets/Scenes/MenuScenes/Part01.unity
+    guid: b1da77f8b063aa44e927b28122f46f23
   - enabled: 1
     path: Assets/Scenes/Block Out Levels/BlockOutLevel3.unity
     guid: 661d69ed5c62a4343a54bf9bbc862f2c
