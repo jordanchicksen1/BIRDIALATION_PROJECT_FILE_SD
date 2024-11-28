@@ -7,11 +7,13 @@ public class CoinManager : MonoBehaviour
     public int Coins = 0;
     public GameObject coin;
 
-    void OnTriggerEnter2D(Collider2D other)
+   
+ 
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.tag == "Rock")
+        if (other)
         {
-            Destroy(coin);
+            Destroy(gameObject);
             Coins++;
         }
     }
