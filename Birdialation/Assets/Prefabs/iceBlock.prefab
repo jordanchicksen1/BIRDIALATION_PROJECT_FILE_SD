@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5452495331016799491}
   - component: {fileID: 4670356604627996841}
   - component: {fileID: 8980761277342715239}
+  - component: {fileID: 5801083736348079270}
   m_Layer: 0
   m_Name: iceBlock
   m_TagString: IceBlock
@@ -97,3 +98,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8bf97ff2dfce944f9bb3810cfb42d7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!50 &5801083736348079270
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8852177266013212948}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 0
