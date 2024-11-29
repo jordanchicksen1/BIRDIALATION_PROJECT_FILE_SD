@@ -1,6 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
-
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -9,12 +9,16 @@ public class EnemyScript : MonoBehaviour
     public bool isInWorldOne=false;
     public bool isInWorldTwo=false;
     public bool isInWorldThree=false;
+
+    public StarCountManager3 starcount;
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Crate"))
         {
             Destroy(gameObject);
+            starcount.AddStars();
             SceneManager.LoadScene("Part01");
+
         }
         else if (collision.gameObject.CompareTag("Bullet") && isInWorldThree == false && isInWorldOne == false && isInWorldTwo == false)
         {
