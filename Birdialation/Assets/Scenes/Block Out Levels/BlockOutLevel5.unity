@@ -372,6 +372,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6949652706371584933, guid: f35e6560bbf398e4d87e0e488d37131a, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 8240698001757844540, guid: f35e6560bbf398e4d87e0e488d37131a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.52
@@ -1021,6 +1025,10 @@ PrefabInstance:
       propertyPath: rock
       value: 
       objectReference: {fileID: 1808089581}
+    - target: {fileID: 2249419176086548032, guid: d6732131b83f0f541aa82a7d073fd6cb, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 3983423832586095549, guid: d6732131b83f0f541aa82a7d073fd6cb, type: 3}
       propertyPath: m_LocalScale.y
       value: 2.5358822
@@ -1082,6 +1090,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6949652706371584933, guid: f35e6560bbf398e4d87e0e488d37131a, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 8240698001757844540, guid: f35e6560bbf398e4d87e0e488d37131a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.89
@@ -1271,7 +1283,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2284196728746071505, guid: 6fce5629973263344bb2e8faf4e66a2f, type: 3}
       propertyPath: m_SortingOrder
-      value: 2
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 2916034213716862977, guid: 6fce5629973263344bb2e8faf4e66a2f, type: 3}
       propertyPath: m_Size.x
@@ -1710,7 +1722,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1635910895}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -2524,6 +2536,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3787094852678725605, guid: 2350d91b2caa09740b63587e724d2e5c, type: 3}
+      propertyPath: m_SortingOrder
+      value: -3
+      objectReference: {fileID: 0}
     - target: {fileID: 7980627962278626753, guid: 2350d91b2caa09740b63587e724d2e5c, type: 3}
       propertyPath: m_Tiles.Array.size
       value: 66
