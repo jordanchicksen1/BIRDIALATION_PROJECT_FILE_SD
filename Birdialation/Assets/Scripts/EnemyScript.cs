@@ -10,13 +10,11 @@ public class EnemyScript : MonoBehaviour
     public bool isInWorldTwo=false;
     public bool isInWorldThree=false;
 
-    public StarCountManager3 starcount;
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Crate"))
         {
             Destroy(gameObject);
-            starcount.AddStars();
             SceneManager.LoadScene("Part01");
 
         }

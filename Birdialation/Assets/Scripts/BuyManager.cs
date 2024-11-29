@@ -34,12 +34,12 @@ public class BuyManager : MonoBehaviour
             if (SaveManager.Instance.saveData.weapon5Unlocked) Weapon3.SetActive(true);
             if (SaveManager.Instance.saveData.weapon6Unlocked) Weapon6.SetActive(true);
 
-            if (SaveManager.Instance.saveData.weapon1Unlocked) Destroy(Lock1);
-            if (SaveManager.Instance.saveData.weapon2Unlocked) Destroy(Lock2);
-            if (SaveManager.Instance.saveData.weapon3Unlocked) Destroy(Lock3);
-            if (SaveManager.Instance.saveData.weapon4Unlocked) Destroy(Lock4);
-            if (SaveManager.Instance.saveData.weapon5Unlocked) Destroy(Lock5);
-            if (SaveManager.Instance.saveData.weapon6Unlocked) Destroy(Lock6);
+            if (SaveManager.Instance.saveData.weapon1Unlocked) Lock1.SetActive(false);
+            if (SaveManager.Instance.saveData.weapon2Unlocked) Lock2.SetActive(false)   ;
+            if (SaveManager.Instance.saveData.weapon3Unlocked) Lock3.SetActive(false);
+            if (SaveManager.Instance.saveData.weapon4Unlocked) Lock4.SetActive(false);
+            if (SaveManager.Instance.saveData.weapon5Unlocked) Lock5.SetActive(false);
+            if (SaveManager.Instance.saveData.weapon6Unlocked) Lock6.SetActive(false);
         }
         else
         {
@@ -88,7 +88,7 @@ public class BuyManager : MonoBehaviour
 
     private void UnlockWeapon(GameObject weapon, string saveKey, GameObject lockObject)
     {
-        Destroy(lockObject);
+        lockObject.SetActive(false);
         weapon.SetActive(true);
 
         // Update save data and save the game

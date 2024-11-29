@@ -24,6 +24,8 @@ TagManager:
   - World1
   - World2
   - World3
+  - Data
+  - TextObject
   layers:
   - Default
   - TransparentFX
