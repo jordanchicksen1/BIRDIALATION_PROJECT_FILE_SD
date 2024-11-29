@@ -33,6 +33,9 @@ public class SaveManager : MonoBehaviour
         public bool weapon4Unlocked;
         public bool weapon5Unlocked;
         public bool weapon6Unlocked;
+
+        public int Level1Stars, Level2Stars, Level3Stars, Level4Stars, Level5Stars, Level6Stars, Level7Stars, Level8Stars, Level9Stars,
+                Level10Stars, Level11Stars, Level12Stars, Level13Stars, Level14Stars, Level15Stars;
     }
 
     public static SaveManager Instance { get; private set; }
@@ -56,6 +59,7 @@ public class SaveManager : MonoBehaviour
     private void Start()
     {
         LoadGame();
+        
     }
 
     public void UpdateCoins(int value)
@@ -63,6 +67,7 @@ public class SaveManager : MonoBehaviour
         saveData.coins = value;
         SaveGame();
     }
+   
 
     public void UpdateStars(int value)
     {

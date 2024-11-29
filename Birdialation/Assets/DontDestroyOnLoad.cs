@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DontDestroyOnLoad : MonoBehaviour
 {
@@ -19,6 +20,7 @@ public class DontDestroyOnLoad : MonoBehaviour
 
         Instance = this;
         DontDestroyOnLoad(gameObject); // Persist across scenes
+        SceneManager.LoadScene("MainMenu");
 
     }
 
