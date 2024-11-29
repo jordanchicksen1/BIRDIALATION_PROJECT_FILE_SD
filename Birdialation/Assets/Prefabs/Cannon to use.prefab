@@ -22,7 +22,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1024452175432810524, guid: cce1798ff6a1d4542b24dce011ecb670, type: 3}
       propertyPath: m_Frequency
-      value: 1
+      value: 1.3
       objectReference: {fileID: 0}
     - target: {fileID: 1439741980786788588, guid: cce1798ff6a1d4542b24dce011ecb670, type: 3}
       propertyPath: m_LocalPosition.x
@@ -289,7 +289,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1024452175432810524, guid: cce1798ff6a1d4542b24dce011ecb670, type: 3}
       propertyPath: m_Frequency
-      value: 1
+      value: 1.3
       objectReference: {fileID: 0}
     - target: {fileID: 1439741980786788588, guid: cce1798ff6a1d4542b24dce011ecb670, type: 3}
       propertyPath: m_LocalPosition.x
@@ -552,7 +552,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1024452175432810524, guid: cce1798ff6a1d4542b24dce011ecb670, type: 3}
       propertyPath: m_Frequency
-      value: 1
+      value: 1.3
       objectReference: {fileID: 0}
     - target: {fileID: 1439741980786788588, guid: cce1798ff6a1d4542b24dce011ecb670, type: 3}
       propertyPath: m_LocalPosition.x
@@ -807,7 +807,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3151250727004440322, guid: d731a70183201c7498c53283cc27693a, type: 3}
       propertyPath: m_Name
-      value: SlingShot to use 1
+      value: Cannon to use
       objectReference: {fileID: 0}
     - target: {fileID: 3151250727004440322, guid: d731a70183201c7498c53283cc27693a, type: 3}
       propertyPath: m_IsActive
@@ -961,7 +961,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1024452175432810524, guid: cce1798ff6a1d4542b24dce011ecb670, type: 3}
       propertyPath: m_Frequency
-      value: 1
+      value: 1.3
       objectReference: {fileID: 0}
     - target: {fileID: 1439741980786788588, guid: cce1798ff6a1d4542b24dce011ecb670, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1228,7 +1228,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1024452175432810524, guid: cce1798ff6a1d4542b24dce011ecb670, type: 3}
       propertyPath: m_Frequency
-      value: 1
+      value: 1.3
       objectReference: {fileID: 0}
     - target: {fileID: 1439741980786788588, guid: cce1798ff6a1d4542b24dce011ecb670, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1495,7 +1495,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1024452175432810524, guid: cce1798ff6a1d4542b24dce011ecb670, type: 3}
       propertyPath: m_Frequency
-      value: 1
+      value: 1.3
       objectReference: {fileID: 0}
     - target: {fileID: 1439741980786788588, guid: cce1798ff6a1d4542b24dce011ecb670, type: 3}
       propertyPath: m_LocalPosition.x
