@@ -1748,12 +1748,44 @@ PrefabInstance:
       value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 4217682406587334611, guid: 39361798f10b90c4995c672874dd23dd, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 58bc6c9d69a71f947ab1fbdc9861fc3f, type: 3}
+    - target: {fileID: 4217682406587334611, guid: 39361798f10b90c4995c672874dd23dd, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4217682406587334611, guid: 39361798f10b90c4995c672874dd23dd, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4217682406587334611, guid: 39361798f10b90c4995c672874dd23dd, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4217682406587334611, guid: 39361798f10b90c4995c672874dd23dd, type: 3}
       propertyPath: m_SortingOrder
       value: -3
       objectReference: {fileID: 0}
+    - target: {fileID: 6662077001414599560, guid: 39361798f10b90c4995c672874dd23dd, type: 3}
+      propertyPath: m_Size.y
+      value: 1.2122743
+      objectReference: {fileID: 0}
+    - target: {fileID: 6662077001414599560, guid: 39361798f10b90c4995c672874dd23dd, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.035379052
+      objectReference: {fileID: 0}
+    - target: {fileID: 6662077001414599560, guid: 39361798f10b90c4995c672874dd23dd, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.6975
+      objectReference: {fileID: 0}
+    - target: {fileID: 6662077001414599560, guid: 39361798f10b90c4995c672874dd23dd, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.3075
+      objectReference: {fileID: 0}
     - target: {fileID: 7568364307347450187, guid: 39361798f10b90c4995c672874dd23dd, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.0224115
+      value: -1.1037954
       objectReference: {fileID: 0}
     - target: {fileID: 7568364307347450187, guid: 39361798f10b90c4995c672874dd23dd, type: 3}
       propertyPath: m_LocalScale.y
@@ -1765,11 +1797,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7568364307347450187, guid: 39361798f10b90c4995c672874dd23dd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.5963
+      value: 3.94
       objectReference: {fileID: 0}
     - target: {fileID: 7568364307347450187, guid: 39361798f10b90c4995c672874dd23dd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.98
+      value: 3.18
       objectReference: {fileID: 0}
     - target: {fileID: 7568364307347450187, guid: 39361798f10b90c4995c672874dd23dd, type: 3}
       propertyPath: m_LocalPosition.z
