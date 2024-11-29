@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Block Out Levels/BlockOutLevel1.unity
     guid: d82010c23da8af647b5a963d4259236e
   - enabled: 1
+    path: Assets/Scenes/OpeningScene.unity
+    guid: f2a43db6a57e8f846bb58c1693a4878e
+  - enabled: 1
     path: Assets/Scenes/MenuScenes/MainMenu.unity
     guid: 793c4f4de873b984c8c0b049818baa74
   - enabled: 1
@@ -60,7 +63,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Levels/Level13.unity
     guid: 817e0c3b10bf6344391bc21948f36bb0
   - enabled: 0
-    path: Assets/Scenes/Levels/level14.unity
+    path: Assets/Scenes/Levels/Level14.unity
     guid: 514313f538d3f3d4bbfa5066dc8bc6fe
   - enabled: 0
     path: Assets/Scenes/Levels/Level15.unity
