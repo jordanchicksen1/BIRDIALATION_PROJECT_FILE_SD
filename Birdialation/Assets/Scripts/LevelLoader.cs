@@ -5,6 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class LevelLoader : MonoBehaviour
 {
+    public void BackButtonClicked()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
     public void Level01ButtonClicked()
     {
         SceneManager.LoadScene("BlockOutLevel1");
