@@ -20,7 +20,7 @@ public class DontDestroyOnLoad : MonoBehaviour
 
         Instance = this;
         DontDestroyOnLoad(gameObject); // Persist across scenes
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("OpeningScene");
 
     }
 
