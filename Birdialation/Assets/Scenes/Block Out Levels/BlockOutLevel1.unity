@@ -217,6 +217,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1277574605}
     - target: {fileID: 67641088185877368, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Cannon
+      value: 
+      objectReference: {fileID: 329678484790499946, guid: b79ce0e9b35728c4b92af0d1f342218c, type: 3}
+    - target: {fileID: 67641088185877368, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
       propertyPath: Sniper
       value: 
       objectReference: {fileID: 329678484790499946, guid: 47c3aedafde7fdc4a8562e8bda6764f9, type: 3}
@@ -268,6 +272,10 @@ PrefabInstance:
       propertyPath: saveManager
       value: 
       objectReference: {fileID: 194289268}
+    - target: {fileID: 628750001171621071, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 671054a0455e0c141b116dc5e219a651, type: 3}
     - target: {fileID: 628750001171621071, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
       propertyPath: m_SortingOrder
       value: 1
@@ -464,6 +472,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bazooka
       objectReference: {fileID: 0}
+    - target: {fileID: 1729193309720894853, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.021
+      objectReference: {fileID: 0}
     - target: {fileID: 2282857771458657488, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
       propertyPath: m_SortingOrder
       value: 2
@@ -552,6 +564,10 @@ PrefabInstance:
       propertyPath: Lock6
       value: 
       objectReference: {fileID: 1277574605}
+    - target: {fileID: 2887811897347499333, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Cannon
+      value: 
+      objectReference: {fileID: 329678484790499946, guid: b79ce0e9b35728c4b92af0d1f342218c, type: 3}
     - target: {fileID: 2887811897347499333, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
       propertyPath: Sniper
       value: 
@@ -673,6 +689,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1277574605}
     - target: {fileID: 4110339195681386086, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Cannon
+      value: 
+      objectReference: {fileID: 329678484790499946, guid: b79ce0e9b35728c4b92af0d1f342218c, type: 3}
+    - target: {fileID: 4110339195681386086, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
       propertyPath: Sniper
       value: 
       objectReference: {fileID: 329678484790499946, guid: 47c3aedafde7fdc4a8562e8bda6764f9, type: 3}
@@ -738,7 +758,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5172112754841816325, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -0.044
       objectReference: {fileID: 0}
     - target: {fileID: 5516038668761225900, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
       propertyPath: Lock1
@@ -764,6 +784,10 @@ PrefabInstance:
       propertyPath: Lock6
       value: 
       objectReference: {fileID: 1277574605}
+    - target: {fileID: 5516038668761225900, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Cannon
+      value: 
+      objectReference: {fileID: 329678484790499946, guid: b79ce0e9b35728c4b92af0d1f342218c, type: 3}
     - target: {fileID: 5516038668761225900, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
       propertyPath: Sniper
       value: 
@@ -792,9 +816,13 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6123977404699194803, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: m_Name
+      value: Cannon
+      objectReference: {fileID: 0}
     - target: {fileID: 6660258702647097382, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
       propertyPath: m_Name
-      value: Rock
+      value: Cannon
       objectReference: {fileID: 0}
     - target: {fileID: 6739768340128038668, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
       propertyPath: m_SortingOrder
@@ -893,6 +921,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1277574605}
     - target: {fileID: 7512766347593039268, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Cannon
+      value: 
+      objectReference: {fileID: 329678484790499946, guid: b79ce0e9b35728c4b92af0d1f342218c, type: 3}
+    - target: {fileID: 7512766347593039268, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
       propertyPath: Sniper
       value: 
       objectReference: {fileID: 329678484790499946, guid: 47c3aedafde7fdc4a8562e8bda6764f9, type: 3}
@@ -933,6 +965,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8338622430830018434, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9baae26311e050149b0f17b22b1b5959, type: 3}
+    - target: {fileID: 8338622430830018434, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
@@ -960,6 +996,10 @@ PrefabInstance:
       propertyPath: Lock6
       value: 
       objectReference: {fileID: 1277574605}
+    - target: {fileID: 8750403086188586418, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
+      propertyPath: Cannon
+      value: 
+      objectReference: {fileID: 329678484790499946, guid: b79ce0e9b35728c4b92af0d1f342218c, type: 3}
     - target: {fileID: 8750403086188586418, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
       propertyPath: Sniper
       value: 
