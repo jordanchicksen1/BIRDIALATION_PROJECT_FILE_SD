@@ -6,6 +6,14 @@ public class Slingshotmanager : MonoBehaviour
 {
     public List<GameObject> SlingShotGameObject;
 
+    public int shotsTaken;
+
+    public GameObject losePanel;
+
+    void Start()
+    {
+
+    }
     private void Update()
     {
         for (int i = 0; i < SlingShotGameObject.Count; i++)
@@ -16,7 +24,22 @@ public class Slingshotmanager : MonoBehaviour
 
     public void NextWeapon()
     {
-        SlingShotGameObject.RemoveAt(0);
+        if (shotsTaken < 5)
+        {
+            SlingShotGameObject.RemoveAt(0);
+        }else if (shotsTaken >= 5)
+        {
+            StartCoroutine(ShowLosePanel());
+            
+        }
+        
 
+    }
+
+    IEnumerator ShowLosePanel()
+    {
+        yield return new WaitForSeconds(5);
+        Instantiate(losePanel);
+        shotsTaken = 0;
     }
 }

@@ -90,6 +90,7 @@ public class BuyManager : MonoBehaviour
     {
         lockObject.SetActive(false);
         weapon.SetActive(true);
+        Destroy(gameObject);
 
         // Update save data and save the game
         if (SaveManager.Instance != null)

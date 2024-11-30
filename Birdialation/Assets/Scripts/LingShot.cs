@@ -25,6 +25,8 @@ public class SlingShot : MonoBehaviour
     [SerializeField]
     private Explosion2D ExploadeScript;
 
+    
+
     private void Start()
     {
         Bazooka = GameObject.FindGameObjectWithTag("Bazooka");
@@ -95,7 +97,7 @@ public class SlingShot : MonoBehaviour
                 rb.isKinematic = false;  // Revert back to dynamic when the drag is over, allowing the physics to apply
                 lineRenderer.enabled = false; // Hide the line
                 StartCoroutine(Break());
-
+                manager.shotsTaken++;
             }
         }
     }
