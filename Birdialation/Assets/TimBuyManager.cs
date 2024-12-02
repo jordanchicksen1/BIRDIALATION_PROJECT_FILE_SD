@@ -8,6 +8,7 @@ public class TimBuyManager : MonoBehaviour
     [SerializeField]
     private List<BuyItem> items = new List<BuyItem>();
 
+
     public void BuyItem(int i)
     {
 
@@ -18,6 +19,5 @@ public class TimBuyManager : MonoBehaviour
 public class BuyItem
 {
     public string Name;
-    public int Damage;
-    public string Effect;
+    public GameObject Lock;
 }
