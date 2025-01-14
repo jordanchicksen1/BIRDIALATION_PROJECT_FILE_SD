@@ -26,10 +26,10 @@ public class Slingshotmanager : MonoBehaviour
     {
         shotsTaken++;
 
-        if (shotsTaken < 5)
+        if (shotsTaken < 10)
         {
             SlingShotGameObject.RemoveAt(0);
-        }else if (shotsTaken >= 5)
+        }else if (shotsTaken >= 10)
         {
             //StartCoroutine(ShowLosePanel());
             print("You lose");
