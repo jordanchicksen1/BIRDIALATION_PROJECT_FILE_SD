@@ -1764,22 +1764,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfa6632dd6600a5469a2f6a4eb3a4c6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Buymanagerscript: {fileID: 212806078}
-  Locks:
-  - {fileID: 1682849868}
-  - {fileID: 155138343}
-  - {fileID: 1172455423}
-  - {fileID: 321991843}
-  - {fileID: 210445735}
-  - {fileID: 1277574605}
-  Buttons:
-  - {fileID: 2018410106}
-  - {fileID: 1158667659}
-  - {fileID: 1254221501}
-  - {fileID: 107213347}
-  - {fileID: 917053274}
-  - {fileID: 1068470289}
-  weaponParent: {fileID: 0}
+  items: []
 --- !u!1 &91142621
 GameObject:
   m_ObjectHideFlags: 0
@@ -1929,17 +1914,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2883520243666160315, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
   m_PrefabInstance: {fileID: 85796868}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &212806078 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8750403086188586418, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
-  m_PrefabInstance: {fileID: 85796868}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 212806077}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af78576d262676e4684a58ac9f82f6ce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &212806083
 MonoBehaviour:
   m_ObjectHideFlags: 0
