@@ -14,4 +14,10 @@ public class BuyButton : MonoBehaviour
     {
         buyManager.BuyItem(item);
     }
+
+    public void OnSelectClick()
+    {
+        buyManager.SelectItem(item);
+
+    }
 }

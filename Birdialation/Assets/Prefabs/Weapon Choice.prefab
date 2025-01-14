@@ -31,18 +31,18 @@ RectTransform:
   m_Children:
   - {fileID: 7459792324933714234}
   - {fileID: 7475772815410102281}
-  - {fileID: 1059981720620870259}
-  - {fileID: 4240013182229094314}
-  - {fileID: 8362720868224151899}
-  - {fileID: 1412554960221543350}
-  - {fileID: 3427836950506856497}
-  - {fileID: 1792009157295604339}
   - {fileID: 2264043715736997081}
   - {fileID: 5718191503570564396}
   - {fileID: 152914681127970949}
   - {fileID: 3336632825096339714}
   - {fileID: 7917705676222069304}
   - {fileID: 5285819434221350738}
+  - {fileID: 1059981720620870259}
+  - {fileID: 4240013182229094314}
+  - {fileID: 8362720868224151899}
+  - {fileID: 1412554960221543350}
+  - {fileID: 3427836950506856497}
+  - {fileID: 1792009157295604339}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -220,15 +220,22 @@ MonoBehaviour:
   Weapon4: {fileID: 2883520243666160315}
   Weapon5: {fileID: 1588322816964067068}
   Weapon6: {fileID: 2020962356675704694}
+  Lock1: {fileID: 0}
+  Lock2: {fileID: 0}
+  Lock3: {fileID: 0}
+  Lock4: {fileID: 0}
+  Lock5: {fileID: 0}
+  Lock6: {fileID: 0}
   HeldObject: {fileID: 0}
   Offset: 2
   Sling: {fileID: 8633270461812461752, guid: 13ffa037e71029a4c97a5553f889ee1a, type: 3}
   Cannon: {fileID: 0}
-  Gun: {fileID: 0}
-  Rock: {fileID: 0}
+  Sniper: {fileID: 0}
+  Bazooka: {fileID: 0}
   WeaponPosition: {fileID: 0}
   Controller: {fileID: 0}
   throwButton: {fileID: 0}
+  TimBuyManager: {fileID: 0}
 --- !u!1 &295974514332624277
 GameObject:
   m_ObjectHideFlags: 0
@@ -387,15 +394,22 @@ MonoBehaviour:
   Weapon4: {fileID: 2883520243666160315}
   Weapon5: {fileID: 1588322816964067068}
   Weapon6: {fileID: 2020962356675704694}
+  Lock1: {fileID: 0}
+  Lock2: {fileID: 0}
+  Lock3: {fileID: 0}
+  Lock4: {fileID: 0}
+  Lock5: {fileID: 0}
+  Lock6: {fileID: 0}
   HeldObject: {fileID: 0}
   Offset: 2
   Sling: {fileID: 8633270461812461752, guid: 13ffa037e71029a4c97a5553f889ee1a, type: 3}
   Cannon: {fileID: 0}
-  Gun: {fileID: 0}
-  Rock: {fileID: 0}
+  Sniper: {fileID: 0}
+  Bazooka: {fileID: 0}
   WeaponPosition: {fileID: 0}
   Controller: {fileID: 0}
   throwButton: {fileID: 0}
+  TimBuyManager: {fileID: 0}
 --- !u!1 &697148461435052538
 GameObject:
   m_ObjectHideFlags: 0
@@ -1494,15 +1508,22 @@ MonoBehaviour:
   Weapon4: {fileID: 0}
   Weapon5: {fileID: 0}
   Weapon6: {fileID: 0}
+  Lock1: {fileID: 0}
+  Lock2: {fileID: 0}
+  Lock3: {fileID: 0}
+  Lock4: {fileID: 0}
+  Lock5: {fileID: 0}
+  Lock6: {fileID: 0}
   HeldObject: {fileID: 0}
   Offset: 2
   Sling: {fileID: 329678484790499946, guid: 46f158d966c09444984fb37b60a1c458, type: 3}
   Cannon: {fileID: 0}
-  Gun: {fileID: 0}
-  Rock: {fileID: 0}
+  Sniper: {fileID: 0}
+  Bazooka: {fileID: 0}
   WeaponPosition: {fileID: 0}
   Controller: {fileID: 0}
   throwButton: {fileID: 0}
+  TimBuyManager: {fileID: 0}
 --- !u!1 &1645596194811059280
 GameObject:
   m_ObjectHideFlags: 0
@@ -1795,15 +1816,22 @@ MonoBehaviour:
   Weapon4: {fileID: 0}
   Weapon5: {fileID: 0}
   Weapon6: {fileID: 0}
+  Lock1: {fileID: 0}
+  Lock2: {fileID: 0}
+  Lock3: {fileID: 0}
+  Lock4: {fileID: 0}
+  Lock5: {fileID: 0}
+  Lock6: {fileID: 0}
   HeldObject: {fileID: 0}
   Offset: 2
   Sling: {fileID: 329678484790499946, guid: 46f158d966c09444984fb37b60a1c458, type: 3}
   Cannon: {fileID: 0}
-  Gun: {fileID: 0}
-  Rock: {fileID: 0}
+  Sniper: {fileID: 0}
+  Bazooka: {fileID: 0}
   WeaponPosition: {fileID: 0}
   Controller: {fileID: 0}
   throwButton: {fileID: 0}
+  TimBuyManager: {fileID: 0}
 --- !u!1 &2152724721655505477
 GameObject:
   m_ObjectHideFlags: 0
@@ -1962,15 +1990,22 @@ MonoBehaviour:
   Weapon4: {fileID: 0}
   Weapon5: {fileID: 0}
   Weapon6: {fileID: 0}
+  Lock1: {fileID: 0}
+  Lock2: {fileID: 0}
+  Lock3: {fileID: 0}
+  Lock4: {fileID: 0}
+  Lock5: {fileID: 0}
+  Lock6: {fileID: 0}
   HeldObject: {fileID: 0}
   Offset: 2
   Sling: {fileID: 329678484790499946, guid: 46f158d966c09444984fb37b60a1c458, type: 3}
   Cannon: {fileID: 0}
-  Gun: {fileID: 0}
-  Rock: {fileID: 0}
+  Sniper: {fileID: 0}
+  Bazooka: {fileID: 0}
   WeaponPosition: {fileID: 0}
   Controller: {fileID: 0}
   throwButton: {fileID: 0}
+  TimBuyManager: {fileID: 0}
 --- !u!1 &2175011869441259431
 GameObject:
   m_ObjectHideFlags: 0
@@ -2129,15 +2164,22 @@ MonoBehaviour:
   Weapon4: {fileID: 0}
   Weapon5: {fileID: 0}
   Weapon6: {fileID: 0}
+  Lock1: {fileID: 0}
+  Lock2: {fileID: 0}
+  Lock3: {fileID: 0}
+  Lock4: {fileID: 0}
+  Lock5: {fileID: 0}
+  Lock6: {fileID: 0}
   HeldObject: {fileID: 0}
   Offset: 2
   Sling: {fileID: 329678484790499946, guid: 46f158d966c09444984fb37b60a1c458, type: 3}
   Cannon: {fileID: 0}
-  Gun: {fileID: 0}
-  Rock: {fileID: 0}
+  Sniper: {fileID: 0}
+  Bazooka: {fileID: 0}
   WeaponPosition: {fileID: 0}
   Controller: {fileID: 0}
   throwButton: {fileID: 0}
+  TimBuyManager: {fileID: 0}
 --- !u!1 &2624609351639185019
 GameObject:
   m_ObjectHideFlags: 0
@@ -2402,15 +2444,22 @@ MonoBehaviour:
   Weapon4: {fileID: 0}
   Weapon5: {fileID: 0}
   Weapon6: {fileID: 0}
+  Lock1: {fileID: 0}
+  Lock2: {fileID: 0}
+  Lock3: {fileID: 0}
+  Lock4: {fileID: 0}
+  Lock5: {fileID: 0}
+  Lock6: {fileID: 0}
   HeldObject: {fileID: 0}
   Offset: 2
   Sling: {fileID: 329678484790499946, guid: 46f158d966c09444984fb37b60a1c458, type: 3}
   Cannon: {fileID: 0}
-  Gun: {fileID: 0}
-  Rock: {fileID: 0}
+  Sniper: {fileID: 0}
+  Bazooka: {fileID: 0}
   WeaponPosition: {fileID: 0}
   Controller: {fileID: 0}
   throwButton: {fileID: 0}
+  TimBuyManager: {fileID: 0}
 --- !u!1 &3004164676154469737
 GameObject:
   m_ObjectHideFlags: 0
@@ -2703,15 +2752,22 @@ MonoBehaviour:
   Weapon4: {fileID: 2883520243666160315}
   Weapon5: {fileID: 1588322816964067068}
   Weapon6: {fileID: 2020962356675704694}
+  Lock1: {fileID: 0}
+  Lock2: {fileID: 0}
+  Lock3: {fileID: 0}
+  Lock4: {fileID: 0}
+  Lock5: {fileID: 0}
+  Lock6: {fileID: 0}
   HeldObject: {fileID: 0}
   Offset: 2
   Sling: {fileID: 8633270461812461752, guid: 13ffa037e71029a4c97a5553f889ee1a, type: 3}
   Cannon: {fileID: 0}
-  Gun: {fileID: 0}
-  Rock: {fileID: 0}
+  Sniper: {fileID: 0}
+  Bazooka: {fileID: 0}
   WeaponPosition: {fileID: 0}
   Controller: {fileID: 0}
   throwButton: {fileID: 0}
+  TimBuyManager: {fileID: 0}
 --- !u!1 &3538445490240717262
 GameObject:
   m_ObjectHideFlags: 0
@@ -3138,15 +3194,22 @@ MonoBehaviour:
   Weapon4: {fileID: 2883520243666160315}
   Weapon5: {fileID: 1588322816964067068}
   Weapon6: {fileID: 2020962356675704694}
+  Lock1: {fileID: 0}
+  Lock2: {fileID: 0}
+  Lock3: {fileID: 0}
+  Lock4: {fileID: 0}
+  Lock5: {fileID: 0}
+  Lock6: {fileID: 0}
   HeldObject: {fileID: 0}
   Offset: 2
   Sling: {fileID: 8633270461812461752, guid: 13ffa037e71029a4c97a5553f889ee1a, type: 3}
   Cannon: {fileID: 0}
-  Gun: {fileID: 0}
-  Rock: {fileID: 0}
+  Sniper: {fileID: 0}
+  Bazooka: {fileID: 0}
   WeaponPosition: {fileID: 0}
   Controller: {fileID: 0}
   throwButton: {fileID: 0}
+  TimBuyManager: {fileID: 0}
 --- !u!1 &4320337542126293146
 GameObject:
   m_ObjectHideFlags: 0
@@ -3305,15 +3368,22 @@ MonoBehaviour:
   Weapon4: {fileID: 0}
   Weapon5: {fileID: 0}
   Weapon6: {fileID: 0}
+  Lock1: {fileID: 0}
+  Lock2: {fileID: 0}
+  Lock3: {fileID: 0}
+  Lock4: {fileID: 0}
+  Lock5: {fileID: 0}
+  Lock6: {fileID: 0}
   HeldObject: {fileID: 0}
   Offset: 2
   Sling: {fileID: 329678484790499946, guid: 46f158d966c09444984fb37b60a1c458, type: 3}
   Cannon: {fileID: 0}
-  Gun: {fileID: 0}
-  Rock: {fileID: 0}
+  Sniper: {fileID: 0}
+  Bazooka: {fileID: 0}
   WeaponPosition: {fileID: 0}
   Controller: {fileID: 0}
   throwButton: {fileID: 0}
+  TimBuyManager: {fileID: 0}
 --- !u!1 &4391168372979498140
 GameObject:
   m_ObjectHideFlags: 0
@@ -3606,15 +3676,22 @@ MonoBehaviour:
   Weapon4: {fileID: 2883520243666160315}
   Weapon5: {fileID: 1588322816964067068}
   Weapon6: {fileID: 2020962356675704694}
+  Lock1: {fileID: 0}
+  Lock2: {fileID: 0}
+  Lock3: {fileID: 0}
+  Lock4: {fileID: 0}
+  Lock5: {fileID: 0}
+  Lock6: {fileID: 0}
   HeldObject: {fileID: 0}
   Offset: 2
   Sling: {fileID: 8633270461812461752, guid: 13ffa037e71029a4c97a5553f889ee1a, type: 3}
   Cannon: {fileID: 0}
-  Gun: {fileID: 0}
-  Rock: {fileID: 0}
+  Sniper: {fileID: 0}
+  Bazooka: {fileID: 0}
   WeaponPosition: {fileID: 0}
   Controller: {fileID: 0}
   throwButton: {fileID: 0}
+  TimBuyManager: {fileID: 0}
 --- !u!1 &4488831749888167768
 GameObject:
   m_ObjectHideFlags: 0
@@ -4042,15 +4119,22 @@ MonoBehaviour:
   Weapon4: {fileID: 2883520243666160315}
   Weapon5: {fileID: 1588322816964067068}
   Weapon6: {fileID: 2020962356675704694}
+  Lock1: {fileID: 0}
+  Lock2: {fileID: 0}
+  Lock3: {fileID: 0}
+  Lock4: {fileID: 0}
+  Lock5: {fileID: 0}
+  Lock6: {fileID: 0}
   HeldObject: {fileID: 0}
   Offset: 2
   Sling: {fileID: 8633270461812461752, guid: 13ffa037e71029a4c97a5553f889ee1a, type: 3}
   Cannon: {fileID: 0}
-  Gun: {fileID: 0}
-  Rock: {fileID: 0}
+  Sniper: {fileID: 0}
+  Bazooka: {fileID: 0}
   WeaponPosition: {fileID: 0}
   Controller: {fileID: 0}
   throwButton: {fileID: 0}
+  TimBuyManager: {fileID: 0}
 --- !u!1 &4734254873587619461
 GameObject:
   m_ObjectHideFlags: 0
