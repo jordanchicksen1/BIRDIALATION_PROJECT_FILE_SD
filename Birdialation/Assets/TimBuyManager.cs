@@ -8,11 +8,15 @@ public class TimBuyManager : MonoBehaviour
     public List<GameObject> Locks;     // List of lock GameObjects
     public List<GameObject> Buttons;  // List of buttons associated with locks
     private bool[] unlockedItems;      // Tracks which items are unlocked
+    [SerializeField]
+    private GameObject weaponParent;
 
     private void Start()
     {
         LoadData();
         UpdateLocksAndButtons();
+
+        
     }
 
     public void BuyItem(int i)
@@ -89,33 +93,41 @@ public class TimBuyManager : MonoBehaviour
 
     public void SelectItem(int i)
     {
-        if (i == 1)
-        {
-            Instantiate(Buymanagerscript.Cannon, Buymanagerscript.WeaponPosition.position, Quaternion.identity);
-
-        }
-        else if (i == 2)
-        {
-            Instantiate(Buymanagerscript.Sling, Buymanagerscript.WeaponPosition.position, Quaternion.identity);
-
-        }
-        else if (i == 3)
+        weaponParent = GameObject.FindGameObjectWithTag("WeaponParent");
+        if (weaponParent.transform.childCount == 0)
         {
 
-        }
-        else if (i == 4)
-        {
-            Instantiate(Buymanagerscript.Sniper, Buymanagerscript.WeaponPosition.position, Quaternion.identity);
+            if (i == 1)
+            {
+               GameObject Weapon =  Instantiate(Buymanagerscript.Cannon, Buymanagerscript.WeaponPosition.position, Quaternion.identity);
+                Weapon.transform.parent = weaponParent.transform;
+            }
+            else if (i == 2)
+            {
+                GameObject Weapon = Instantiate(Buymanagerscript.Sling, Buymanagerscript.WeaponPosition.position, Quaternion.identity);
+                Weapon.transform.parent = weaponParent.transform;
 
-        }
-        else if (i == 5)
-        {
-            Instantiate(Buymanagerscript.Bazooka, Buymanagerscript.WeaponPosition.position, Quaternion.identity);
+            }
+            else if (i == 3)
+            {
 
-        }
-        else if (i == 6)
-        {
+            }
+            else if (i == 4)
+            {
+                GameObject Weapon = Instantiate(Buymanagerscript.Sniper, Buymanagerscript.WeaponPosition.position, Quaternion.identity);
+                Weapon.transform.parent = weaponParent.transform;
 
+            }
+            else if (i == 5)
+            {
+                GameObject Weapon = Instantiate(Buymanagerscript.Bazooka, Buymanagerscript.WeaponPosition.position, Quaternion.identity);
+                Weapon.transform.parent = weaponParent.transform;
+
+            }
+            else if (i == 6)
+            {
+
+            }
         }
     }
 
