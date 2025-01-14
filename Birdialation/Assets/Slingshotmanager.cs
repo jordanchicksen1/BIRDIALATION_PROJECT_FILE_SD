@@ -24,13 +24,15 @@ public class Slingshotmanager : MonoBehaviour
 
     public void NextWeapon()
     {
+        shotsTaken++;
+
         if (shotsTaken < 5)
         {
             SlingShotGameObject.RemoveAt(0);
         }else if (shotsTaken >= 5)
         {
-            StartCoroutine(ShowLosePanel());
-            
+            //StartCoroutine(ShowLosePanel());
+            print("You lose");
         }
         
 
