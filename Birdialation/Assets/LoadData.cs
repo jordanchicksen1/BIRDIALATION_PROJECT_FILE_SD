@@ -1,115 +1,78 @@
-using System.Collections;
 using UnityEngine;
 
 public class SaveManager : MonoBehaviour
 {
-    [System.Serializable]
-    public class SaveData
-    {
-        public int coins;
-        public int stars;
+    public int Coins; // Tracks the player's current coin count
 
-        [Header("Levels")]
-        public bool Level1Unclocked;
-        public bool Level2Unclocked;
-        public bool Level3Unclocked;
-        public bool Level4Unclocked;
-        public bool Level5Unclocked;
-        public bool Level6Unclocked;
-        public bool Level7Unclocked;
-        public bool Level8Unclocked;
-        public bool Level9Unclocked;
-        public bool Level10Unclocked;
-        public bool Level11Unclocked;
-        public bool Level12Unclocked;
-        public bool Level13Unclocked;
-        public bool Level14Unclocked;
-        public bool Level15Unclocked;
-
-        [Header("Weapons")]
-        public bool weapon1Unlocked;
-        public bool weapon2Unlocked;
-        public bool weapon3Unlocked;
-        public bool weapon4Unlocked;
-        public bool weapon5Unlocked;
-        public bool weapon6Unlocked;
-
-        public int Level1Stars, Level2Stars, Level3Stars, Level4Stars, Level5Stars, Level6Stars, Level7Stars, Level8Stars, Level9Stars,
-                Level10Stars, Level11Stars, Level12Stars, Level13Stars, Level14Stars, Level15Stars;
-    }
-
-    public static SaveManager Instance { get; private set; }
-
-    public SaveData saveData = new SaveData();
-
-    private void Awake()
-    {
-        if (Instance == null)
-        {
-            Instance = this;
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
-
-    }
+    private const string CoinsKey = "Coins"; // Key for saving/loading coins in PlayerPrefs
 
     private void Start()
     {
-        LoadGame();
-        
+        LoadCoins(); // Load coins when the game starts
     }
 
-    public void UpdateCoins(int value)
+    // Adds coins to the total and saves the data.
+    /// <param name="amount">Amount of coins to add.</param>
+    public void AddCoins(int amount)
     {
-        saveData.coins = value;
-        SaveGame();
-    }
-   
-
-    public void UpdateStars(int value)
-    {
-        saveData.stars = value;
-        SaveGame();
+        Coins += amount;
+        SaveCoins();
+        Debug.Log($"Added {amount} coins. Total: {Coins}");
     }
 
-    public void SaveGame()
+    /// Spends coins and saves the data, if sufficient coins are available.
+    /// </summary>
+    /// <param name="amount">Amount of coins to spend.</param>
+    /// <returns>True if the coins were spent, false otherwise.</returns>
+    public bool SpendCoins(int amount)
     {
-        string json = JsonUtility.ToJson(saveData);
-        PlayerPrefs.SetString("SaveData", json);
+        if (Coins >= amount)
+        {
+            Coins -= amount;
+            SaveCoins();
+            Debug.Log($"Spent {amount} coins. Remaining: {Coins}");
+            return true;
+        }
+
+        Debug.LogWarning("Not enough coins to spend!");
+        return false;
+    }
+
+    /// <summary>
+    /// Gets the current coin count.
+    /// </summary>
+    /// <returns>The current coin count.</returns>
+    public int GetCoins()
+    {
+        return Coins;
+    }
+
+    /// <summary>
+    /// Resets the coin data to zero and saves it.
+    /// </summary>
+    public void ResetCoins()
+    {
+        Coins = 0;
+        SaveCoins();
+        Debug.Log("Coins reset to zero.");
+    }
+
+    /// <summary>
+    /// Saves the current coin count to PlayerPrefs.
+    /// </summary>
+    private void SaveCoins()
+    {
+        PlayerPrefs.SetInt(CoinsKey, Coins);
         PlayerPrefs.Save();
-        Debug.Log("Game Saved!");
+        Debug.Log("Coin data saved.");
     }
 
-    public void LoadGame()
+    /// <summary>
+    /// Loads the coin count from PlayerPrefs.
+    /// </summary>
+    private void LoadCoins()
     {
-        if (PlayerPrefs.HasKey("SaveData"))
-        {
-            string json = PlayerPrefs.GetString("SaveData");
-            try
-            {
-                saveData = JsonUtility.FromJson<SaveData>(json);
-                Debug.Log("Game Loaded!");
-            }
-            catch
-            {
-                Debug.LogWarning("Failed to load save data. Starting fresh.");
-                saveData = new SaveData();
-            }
-        }
-        else
-        {
-            Debug.Log("No save data found. Starting fresh.");
-        }
+        Coins = PlayerPrefs.GetInt(CoinsKey, 0);
+        Debug.Log($"Coin data loaded. Total: {Coins}");
     }
-
-    public void ResetGameData()
-    {
-        PlayerPrefs.DeleteKey("SaveData");
-        saveData = new SaveData();
-        Debug.Log("Game data reset.");
-    }
-
-    
 }

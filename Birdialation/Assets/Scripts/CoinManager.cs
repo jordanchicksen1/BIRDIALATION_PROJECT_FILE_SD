@@ -4,12 +4,14 @@ using TMPro;
 
 public class CoinManager : MonoBehaviour
 {
-    public int coinsCollected = 0;
     public TextMeshProUGUI coinCount;
 
     public SaveManager saveManager;
     private GameObject Data;
     public GameObject TextObject;
+
+    public EnemyScript enemyScrpt;
+    private GameObject Enemy;
 
     private void Awake()
     {
@@ -17,22 +19,25 @@ public class CoinManager : MonoBehaviour
         coinCount = TextObject.GetComponent<TextMeshProUGUI>();
 
         Data = GameObject.FindGameObjectWithTag("Data");
-       saveManager = Data.GetComponent<SaveManager>();
+        saveManager = Data.GetComponent<SaveManager>();
+
+        Enemy = GameObject.FindGameObjectWithTag("Enemy");
+        enemyScrpt = Enemy.GetComponent<EnemyScript>();
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other)
         {
-            coinsCollected++;
+            enemyScrpt.coinsCollected++;
+            
             UpdateCoinUI();
-            saveManager.SaveGame();
             Destroy(gameObject);
         }
     }
 
     private void UpdateCoinUI()
     {
-        coinCount.text = "" + saveManager.saveData.coins;
+        coinCount.text = "" + saveManager.Coins;
         
     }
 

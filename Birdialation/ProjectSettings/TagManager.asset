@@ -28,6 +28,8 @@ TagManager:
   - TextObject
   - LosePanel
   - WeaponParent
+  - Coin
+  - SaveManager
   layers:
   - Default
   - TransparentFX

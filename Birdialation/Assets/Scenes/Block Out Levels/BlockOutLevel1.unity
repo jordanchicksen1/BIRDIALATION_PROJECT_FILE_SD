@@ -1799,7 +1799,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfa6632dd6600a5469a2f6a4eb3a4c6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Buymanagerscript: {fileID: 0}
   Locks:
   - {fileID: 1682849868}
   - {fileID: 155138343}
@@ -1923,45 +1922,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7500da283aca07740a7f3bbf99970c93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  saveData:
-    coins: 0
-    stars: 0
-    Level1Unclocked: 0
-    Level2Unclocked: 0
-    Level3Unclocked: 0
-    Level4Unclocked: 0
-    Level5Unclocked: 0
-    Level6Unclocked: 0
-    Level7Unclocked: 0
-    Level8Unclocked: 0
-    Level9Unclocked: 0
-    Level10Unclocked: 0
-    Level11Unclocked: 0
-    Level12Unclocked: 0
-    Level13Unclocked: 0
-    Level14Unclocked: 0
-    Level15Unclocked: 0
-    weapon1Unlocked: 0
-    weapon2Unlocked: 0
-    weapon3Unlocked: 0
-    weapon4Unlocked: 0
-    weapon5Unlocked: 0
-    weapon6Unlocked: 0
-    Level1Stars: 0
-    Level2Stars: 0
-    Level3Stars: 0
-    Level4Stars: 0
-    Level5Stars: 0
-    Level6Stars: 0
-    Level7Stars: 0
-    Level8Stars: 0
-    Level9Stars: 0
-    Level10Stars: 0
-    Level11Stars: 0
-    Level12Stars: 0
-    Level13Stars: 0
-    Level14Stars: 0
-    Level15Stars: 0
+  Coins: 0
 --- !u!1 &210445735 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4734254873587619461, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
@@ -2645,6 +2606,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7568364307347450187, guid: 39361798f10b90c4995c672874dd23dd, type: 3}
   m_PrefabInstance: {fileID: 572758349}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &572758351 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5725568706660748326, guid: 39361798f10b90c4995c672874dd23dd, type: 3}
+  m_PrefabInstance: {fileID: 572758349}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e895b9583f3040640b4b015c9db96b82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &598655108
 GameObject:
   m_ObjectHideFlags: 0
@@ -5019,6 +4991,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 814746460}
     - target: {fileID: 6912234272871498343, guid: f35e6560bbf398e4d87e0e488d37131a, type: 3}
+      propertyPath: enemyScrpt
+      value: 
+      objectReference: {fileID: 572758351}
+    - target: {fileID: 6912234272871498343, guid: f35e6560bbf398e4d87e0e488d37131a, type: 3}
       propertyPath: saveManager
       value: 
       objectReference: {fileID: 194289268}
@@ -5069,6 +5045,10 @@ PrefabInstance:
     - target: {fileID: 9155517955601576513, guid: f35e6560bbf398e4d87e0e488d37131a, type: 3}
       propertyPath: m_Name
       value: CoinSprite
+      objectReference: {fileID: 0}
+    - target: {fileID: 9155517955601576513, guid: f35e6560bbf398e4d87e0e488d37131a, type: 3}
+      propertyPath: m_TagString
+      value: Coin
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
