@@ -47,7 +47,6 @@ public class SaveManager : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject); // Ensure SaveManager persists across scenes
         }
         else
         {

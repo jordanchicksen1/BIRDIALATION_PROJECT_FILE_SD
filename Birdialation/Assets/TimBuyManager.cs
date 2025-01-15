@@ -4,19 +4,21 @@ using UnityEngine.SceneManagement;
 
 public class TimBuyManager : MonoBehaviour
 {
-    public BuyManager Buymanagerscript; // Reference to the BuyManager script
     public List<GameObject> Locks;     // List of lock GameObjects
     public List<GameObject> Buttons;  // List of buttons associated with locks
     private bool[] unlockedItems;      // Tracks which items are unlocked
     [SerializeField]
     private GameObject weaponParent;
 
+    [SerializeField]
+    private List<GameObject> Weapons;
+    public Transform SlingPosition;
+
     private void Start()
     {
         LoadData();
         UpdateLocksAndButtons();
 
-        
     }
 
     public void BuyItem(int i)
@@ -99,28 +101,28 @@ public class TimBuyManager : MonoBehaviour
 
             if (i == 1)
             {
-               GameObject Weapon =  Instantiate(Buymanagerscript.Cannon, Buymanagerscript.WeaponPosition.position, Quaternion.identity);
+               GameObject Weapon = Instantiate(Weapons[0], SlingPosition.position, Quaternion.identity);
                 Weapon.transform.parent = weaponParent.transform;
             }
             else if (i == 2)
             {
-                GameObject Weapon = Instantiate(Buymanagerscript.Sling, Buymanagerscript.WeaponPosition.position, Quaternion.identity);
+                GameObject Weapon = Instantiate(Weapons[1], SlingPosition.position, Quaternion.identity);
                 Weapon.transform.parent = weaponParent.transform;
 
             }
             else if (i == 3)
             {
-
+                
             }
             else if (i == 4)
             {
-                GameObject Weapon = Instantiate(Buymanagerscript.Sniper, Buymanagerscript.WeaponPosition.position, Quaternion.identity);
-                Weapon.transform.parent = weaponParent.transform;
 
+                GameObject Weapon = Instantiate(Weapons[3], SlingPosition.position, Quaternion.identity);
+                Weapon.transform.parent = weaponParent.transform;
             }
             else if (i == 5)
             {
-                GameObject Weapon = Instantiate(Buymanagerscript.Bazooka, Buymanagerscript.WeaponPosition.position, Quaternion.identity);
+                GameObject Weapon = Instantiate(Weapons[4], SlingPosition.position, Quaternion.identity);
                 Weapon.transform.parent = weaponParent.transform;
 
             }

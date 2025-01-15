@@ -22,6 +22,8 @@ public class EnemyScript : MonoBehaviour
             saveManager.saveData.coins += coinManager.coinsCollected;
             SceneManager.LoadScene("Part01");
 
+            
+
         }
         else if (collision.gameObject.CompareTag("Bullet") && isInWorldThree == false && isInWorldOne == false && isInWorldTwo == false)
         {
