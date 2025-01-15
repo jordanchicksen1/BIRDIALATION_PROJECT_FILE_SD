@@ -9,12 +9,17 @@ public class EnemyScript : MonoBehaviour
     public bool isInWorldOne=false;
     public bool isInWorldTwo=false;
     public bool isInWorldThree=false;
+    public CoinManager coinManager;
+    public SaveManager saveManager;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Crate"))
         {
+            
+
             Destroy(gameObject);
+            saveManager.saveData.coins += coinManager.coinsCollected;
             SceneManager.LoadScene("Part01");
 
         }

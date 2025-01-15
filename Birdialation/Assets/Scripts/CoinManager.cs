@@ -4,7 +4,7 @@ using TMPro;
 
 public class CoinManager : MonoBehaviour
 {
-    public int Coins = 0;
+    public int coinsCollected = 0;
     public TextMeshProUGUI coinCount;
 
     public SaveManager saveManager;
@@ -23,7 +23,7 @@ public class CoinManager : MonoBehaviour
     {
         if (other)
         {
-            saveManager.saveData.coins++;
+            coinsCollected++;
             UpdateCoinUI();
             saveManager.SaveGame();
             Destroy(gameObject);
