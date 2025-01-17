@@ -41,6 +41,7 @@ public class EnemyScript : MonoBehaviour
             }
 
             saveManager.AddCoins(coinsCollected);
+            saveManager.AddCoins(5);
             Destroy(gameObject);
             SceneManager.LoadScene("Part01");
         }
