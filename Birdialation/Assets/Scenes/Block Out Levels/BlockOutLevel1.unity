@@ -5713,6 +5713,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 2330636357133542998, guid: 2350d91b2caa09740b63587e724d2e5c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3787094852678725605, guid: 2350d91b2caa09740b63587e724d2e5c, type: 3}
       propertyPath: m_SortingOrder
       value: -3
