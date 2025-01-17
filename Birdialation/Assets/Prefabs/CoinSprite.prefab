@@ -102,6 +102,7 @@ MonoBehaviour:
   saveManager: {fileID: 0}
   TextObject: {fileID: 0}
   enemyScrpt: {fileID: 0}
+  Particles: {fileID: 2164260553760317615, guid: 6aa2a4932517adf43bf916705bb91d95, type: 3}
 --- !u!58 &2866691033798833785
 CircleCollider2D:
   m_ObjectHideFlags: 0

@@ -13,6 +13,8 @@ public class CoinManager : MonoBehaviour
     public EnemyScript enemyScrpt;
     private GameObject Enemy;
 
+    public GameObject Particles;
+
     private void Awake()
     {
         TextObject = GameObject.FindGameObjectWithTag("TextObject");
@@ -28,10 +30,13 @@ public class CoinManager : MonoBehaviour
     {
         if (other)
         {
-            enemyScrpt.coinsCollected++;
+            enemyScrpt.coinsCollected += 5;
             
             UpdateCoinUI();
+            GameObject Particle = Instantiate(Particles, transform.position, Quaternion.identity);
+            Destroy(Particle, 1);
             Destroy(gameObject);
+
         }
     }
 

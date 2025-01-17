@@ -8,12 +8,17 @@ public class BuyButton : MonoBehaviour
     private int item = 1;
 
     [SerializeField]
+    private int Price;
+
+    [SerializeField]
     private TimBuyManager buyManager;
 
     public void OnBuyClick()
     {
         buyManager.BuyItem(item);
     }
+
+    
 
     public void OnSelectClick()
     {

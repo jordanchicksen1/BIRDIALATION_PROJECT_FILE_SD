@@ -14,6 +14,10 @@ public class TimBuyManager : MonoBehaviour
     private List<GameObject> Weapons;
     public Transform SlingPosition;
 
+    [SerializeField]
+    private List<int> WeaponPrices;
+
+    public SaveManager saveManager;
     private void Start()
     {
         LoadData();
@@ -21,18 +25,38 @@ public class TimBuyManager : MonoBehaviour
 
     }
 
-    public void BuyItem(int i)
+    public void BuyItem(int index)
     {
         // Validate the index
-        if (i < 1 || i > Locks.Count)
+        if (index < 1 || index > Locks.Count)
         {
-            Debug.LogWarning("Invalid index: " + i);
+            Debug.LogWarning("Invalid index: " + index);
             return;
         }
 
-        UnlockItem(i - 1); // Convert 1-based index to 0-based
+        int actualIndex = index - 1; // Convert 1-based index to 0-based
+
+        // Check if already unlocked
+        if (unlockedItems[actualIndex])
+        {
+            Debug.LogWarning("Item already unlocked!");
+            return;
+        }
+
+        // Check if the player has enough coins
+        if (saveManager.Coins < WeaponPrices[actualIndex])
+        {
+            Debug.LogWarning("Not enough coins!");
+            return;
+        }
+
+        // Deduct the price and unlock the item
+        saveManager.IncrementCoins(WeaponPrices[actualIndex]);
+        UnlockItem(actualIndex);
         SaveData();
     }
+
+
 
     private void UnlockItem(int index)
     {

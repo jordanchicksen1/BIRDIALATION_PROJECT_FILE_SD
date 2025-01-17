@@ -20,6 +20,13 @@ public class SaveManager : MonoBehaviour
         Debug.Log($"Added {amount} coins. Total: {Coins}");
     }
 
+    public void IncrementCoins(int amount)
+    {
+        Coins -= amount;
+        SaveCoins();
+        Debug.Log($"Added {amount} coins. Total: {Coins}");
+    }
+
     /// Spends coins and saves the data, if sufficient coins are available.
     /// </summary>
     /// <param name="amount">Amount of coins to spend.</param>
