@@ -240,7 +240,7 @@ GameObject:
   - component: {fileID: 45323713}
   - component: {fileID: 45323712}
   - component: {fileID: 45323711}
-  - component: {fileID: 45323710}
+  - component: {fileID: 45323714}
   m_Layer: 5
   m_Name: 'Level12Button '
   m_TagString: Untagged
@@ -268,23 +268,6 @@ RectTransform:
   m_AnchoredPosition: {x: -364, y: -203}
   m_SizeDelta: {x: 220, y: 220}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &45323710
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 45323708}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbb18a362d083784db76370417400a68, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: 0
-  Level: 2
-  Price: 0
-  buyManager: {fileID: 0}
-  levelBuyManager: {fileID: 0}
 --- !u!114 &45323711
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -329,8 +312,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 45323710}
-        m_TargetAssemblyTypeName: BuyButton, Assembly-CSharp
+      - m_Target: {fileID: 45323714}
+        m_TargetAssemblyTypeName: UnlockButton, Assembly-CSharp
         m_MethodName: OnClickUnlockLevel
         m_Mode: 1
         m_Arguments:
@@ -379,6 +362,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 45323708}
   m_CullTransparentMesh: 1
+--- !u!114 &45323714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 45323708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b75ba5f6f7008104fb40f8c92fecbf0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Level: 2
+  levelBuyManager: {fileID: 1569522069}
 --- !u!1 &190744054
 GameObject:
   m_ObjectHideFlags: 0
@@ -1012,7 +1009,7 @@ GameObject:
   - component: {fileID: 441306907}
   - component: {fileID: 441306906}
   - component: {fileID: 441306905}
-  - component: {fileID: 441306904}
+  - component: {fileID: 441306908}
   m_Layer: 5
   m_Name: 'Level15Button '
   m_TagString: Untagged
@@ -1040,23 +1037,6 @@ RectTransform:
   m_AnchoredPosition: {x: 601, y: 334}
   m_SizeDelta: {x: 220, y: 220}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &441306904
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 441306902}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbb18a362d083784db76370417400a68, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: 0
-  Level: 5
-  Price: 0
-  buyManager: {fileID: 0}
-  levelBuyManager: {fileID: 0}
 --- !u!114 &441306905
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1101,8 +1081,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 441306904}
-        m_TargetAssemblyTypeName: BuyButton, Assembly-CSharp
+      - m_Target: {fileID: 441306908}
+        m_TargetAssemblyTypeName: UnlockButton, Assembly-CSharp
         m_MethodName: OnClickUnlockLevel
         m_Mode: 1
         m_Arguments:
@@ -1151,6 +1131,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 441306902}
   m_CullTransparentMesh: 1
+--- !u!114 &441306908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 441306902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b75ba5f6f7008104fb40f8c92fecbf0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Level: 5
+  levelBuyManager: {fileID: 1569522069}
 --- !u!1 &506548910
 GameObject:
   m_ObjectHideFlags: 0
@@ -1331,7 +1325,7 @@ GameObject:
   - component: {fileID: 664851886}
   - component: {fileID: 664851885}
   - component: {fileID: 664851884}
-  - component: {fileID: 664851883}
+  - component: {fileID: 664851887}
   m_Layer: 5
   m_Name: 'Level13Button '
   m_TagString: Untagged
@@ -1359,23 +1353,6 @@ RectTransform:
   m_AnchoredPosition: {x: 45, y: -211}
   m_SizeDelta: {x: 220, y: 220}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &664851883
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 664851881}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbb18a362d083784db76370417400a68, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: 0
-  Level: 3
-  Price: 0
-  buyManager: {fileID: 0}
-  levelBuyManager: {fileID: 0}
 --- !u!114 &664851884
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1420,8 +1397,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 664851883}
-        m_TargetAssemblyTypeName: BuyButton, Assembly-CSharp
+      - m_Target: {fileID: 664851887}
+        m_TargetAssemblyTypeName: UnlockButton, Assembly-CSharp
         m_MethodName: OnClickUnlockLevel
         m_Mode: 1
         m_Arguments:
@@ -1470,6 +1447,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 664851881}
   m_CullTransparentMesh: 1
+--- !u!114 &664851887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 664851881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b75ba5f6f7008104fb40f8c92fecbf0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Level: 3
+  levelBuyManager: {fileID: 1569522069}
 --- !u!1001 &710954221
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1800,7 +1791,7 @@ GameObject:
   - component: {fileID: 963794127}
   - component: {fileID: 963794126}
   - component: {fileID: 963794125}
-  - component: {fileID: 963794124}
+  - component: {fileID: 963794128}
   m_Layer: 5
   m_Name: 'Level14Button '
   m_TagString: Untagged
@@ -1828,23 +1819,6 @@ RectTransform:
   m_AnchoredPosition: {x: 377, y: 21}
   m_SizeDelta: {x: 220, y: 220}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &963794124
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 963794122}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbb18a362d083784db76370417400a68, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: 0
-  Level: 4
-  Price: 0
-  buyManager: {fileID: 0}
-  levelBuyManager: {fileID: 0}
 --- !u!114 &963794125
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1889,8 +1863,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 963794124}
-        m_TargetAssemblyTypeName: BuyButton, Assembly-CSharp
+      - m_Target: {fileID: 963794128}
+        m_TargetAssemblyTypeName: UnlockButton, Assembly-CSharp
         m_MethodName: OnClickUnlockLevel
         m_Mode: 1
         m_Arguments:
@@ -1939,6 +1913,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963794122}
   m_CullTransparentMesh: 1
+--- !u!114 &963794128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963794122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b75ba5f6f7008104fb40f8c92fecbf0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Level: 4
+  levelBuyManager: {fileID: 1569522069}
 --- !u!1001 &1132203025
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2932,12 +2920,6 @@ MonoBehaviour:
   - {fileID: 664851881}
   - {fileID: 963794122}
   - {fileID: 441306902}
-  Buttons:
-  - {fileID: 1995628419}
-  - {fileID: 45323708}
-  - {fileID: 664851881}
-  - {fileID: 963794122}
-  - {fileID: 441306902}
   levelPrices: 1e0000001e0000001e0000001e000000
   saveManager: {fileID: 0}
   gameData: {fileID: 0}
@@ -3805,7 +3787,7 @@ GameObject:
   - component: {fileID: 1995628424}
   - component: {fileID: 1995628423}
   - component: {fileID: 1995628422}
-  - component: {fileID: 1995628421}
+  - component: {fileID: 1995628425}
   m_Layer: 5
   m_Name: Level11Button
   m_TagString: Untagged
@@ -3833,23 +3815,6 @@ RectTransform:
   m_AnchoredPosition: {x: -773, y: -345}
   m_SizeDelta: {x: 220, y: 220}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1995628421
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1995628419}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbb18a362d083784db76370417400a68, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: 0
-  Level: 1
-  Price: 0
-  buyManager: {fileID: 0}
-  levelBuyManager: {fileID: 0}
 --- !u!114 &1995628422
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3894,8 +3859,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1995628421}
-        m_TargetAssemblyTypeName: BuyButton, Assembly-CSharp
+      - m_Target: {fileID: 1995628425}
+        m_TargetAssemblyTypeName: UnlockButton, Assembly-CSharp
         m_MethodName: OnClickUnlockLevel
         m_Mode: 1
         m_Arguments:
@@ -3944,6 +3909,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1995628419}
   m_CullTransparentMesh: 1
+--- !u!114 &1995628425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1995628419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b75ba5f6f7008104fb40f8c92fecbf0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Level: 1
+  levelBuyManager: {fileID: 1569522069}
 --- !u!1001 &2103210503
 PrefabInstance:
   m_ObjectHideFlags: 0
