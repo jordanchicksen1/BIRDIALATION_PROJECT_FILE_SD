@@ -538,13 +538,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc702a1bdb2ba7745b7dce9d8e5bafa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Locks:
+  LevelLocks:
   - {fileID: 2065142318}
   - {fileID: 825444210}
   - {fileID: 7176367}
   - {fileID: 504133422}
   - {fileID: 1254102487}
-  levelPrices: 1e0000001e0000001e0000001e000000
+  levelPrices: 140000001e0000000f00000005000000
   saveManager: {fileID: 0}
   gameData: {fileID: 0}
 --- !u!1 &162362986

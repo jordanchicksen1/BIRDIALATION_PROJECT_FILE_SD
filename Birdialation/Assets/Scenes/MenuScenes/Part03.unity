@@ -2914,7 +2914,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc702a1bdb2ba7745b7dce9d8e5bafa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Locks:
+  LevelLocks:
   - {fileID: 1995628419}
   - {fileID: 45323708}
   - {fileID: 664851881}

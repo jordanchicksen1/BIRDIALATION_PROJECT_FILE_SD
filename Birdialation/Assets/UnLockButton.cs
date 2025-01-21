@@ -15,5 +15,7 @@ public class UnlockButton : MonoBehaviour
     public void OnClickUnlockLevel()
     {
         levelBuyManager.UnlockLevel(Level);
+        print("Why are you iunlocking");
+
     }
 }

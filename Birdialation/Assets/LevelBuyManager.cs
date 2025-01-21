@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class LevelBuyManager : MonoBehaviour
 {
-    public List<GameObject> Locks;     // List of lock GameObjects
+    public List<GameObject> LevelLocks;     // List of lock GameObjects
     private bool[] unlockedItems;      // Tracks which items are unlocked
 
 
@@ -28,7 +28,7 @@ public class LevelBuyManager : MonoBehaviour
     public void UnlockLevel(int index)
     {
         // Validate the index
-        if (index < 1 || index > Locks.Count)
+        if (index < 1 || index > LevelLocks.Count)
         {
             Debug.LogWarning("Invalid index: " + index);
             return;
@@ -60,10 +60,10 @@ public class LevelBuyManager : MonoBehaviour
 
     private void UnlockItem(int index)
     {
-        if (Locks[index] != null)
+        if (LevelLocks[index] != null)
         {
-            Destroy(Locks[index]);
-            Locks[index] = null; // Clear the reference
+            Destroy(LevelLocks[index]);
+            LevelLocks[index] = null; // Clear the reference
         }
 
         
@@ -72,19 +72,18 @@ public class LevelBuyManager : MonoBehaviour
         Debug.Log("Unlocked item and destroyed button at index: " + index);
 
 
-        print("Why are you iunlocking");
     }
 
     private void UpdateLocksAndButtons()
     {
-        for (int i = 0; i < Locks.Count; i++)
+        for (int i = 0; i < LevelLocks.Count; i++)
         {
             if (unlockedItems[i])
             {
-                if (Locks[i] != null)
+                if (LevelLocks[i] != null)
                 {
-                    Locks[i].SetActive(false);
-                    Locks[i] = null; // Clear the reference
+                    LevelLocks[i].SetActive(false);
+                    LevelLocks[i] = null; // Clear the reference
                 }
 
                 
@@ -104,7 +103,7 @@ public class LevelBuyManager : MonoBehaviour
 
     private void LoadData()
     {
-        unlockedItems = new bool[Locks.Count];
+        unlockedItems = new bool[LevelLocks.Count];
         for (int i = 0; i < unlockedItems.Length; i++)
         {
             unlockedItems[i] = PlayerPrefs.GetInt($"UnlockedItem_{i}", 0) == 1;
@@ -117,25 +116,25 @@ public class LevelBuyManager : MonoBehaviour
     public void ResetData()
     {
         // Clear PlayerPrefs
-        for (int i = 0; i < Locks.Count; i++)
+        for (int i = 0; i < LevelLocks.Count; i++)
         {
             PlayerPrefs.DeleteKey($"UnlockedItem_{i}");
         }
 
         // Reset internal data
-        unlockedItems = new bool[Locks.Count];
+        unlockedItems = new bool[LevelLocks.Count];
 
         // Reactivate locks and buttons
-        for (int i = 0; i < Locks.Count; i++)
+        for (int i = 0; i < LevelLocks.Count; i++)
         {
-            if (Locks[i] == null)
+            if (LevelLocks[i] == null)
             {
 
                 Debug.LogWarning($"Lock {i + 1} is missing. Please ensure prefabs are set up.");
             }
             else
             {
-                Locks[i].SetActive(true);
+                LevelLocks[i].SetActive(true);
             }
 
             
