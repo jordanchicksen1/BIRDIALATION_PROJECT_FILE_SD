@@ -206,7 +206,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 103319170}
-        m_TargetAssemblyTypeName: BuyButton, Assembly-CSharp
+        m_TargetAssemblyTypeName: UnlockButton, Assembly-CSharp
         m_MethodName: OnClickUnlockLevel
         m_Mode: 1
         m_Arguments:
@@ -264,13 +264,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 103319164}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbb18a362d083784db76370417400a68, type: 3}
+  m_Script: {fileID: 11500000, guid: b75ba5f6f7008104fb40f8c92fecbf0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  item: 0
   Level: 3
-  Price: 0
-  buyManager: {fileID: 0}
   levelBuyManager: {fileID: 836460962}
 --- !u!1 &104766275
 GameObject:
@@ -636,7 +633,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 480881556}
-        m_TargetAssemblyTypeName: BuyButton, Assembly-CSharp
+        m_TargetAssemblyTypeName: UnlockButton, Assembly-CSharp
         m_MethodName: OnClickUnlockLevel
         m_Mode: 1
         m_Arguments:
@@ -694,13 +691,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 480881550}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbb18a362d083784db76370417400a68, type: 3}
+  m_Script: {fileID: 11500000, guid: b75ba5f6f7008104fb40f8c92fecbf0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  item: 0
   Level: 2
-  Price: 0
-  buyManager: {fileID: 0}
   levelBuyManager: {fileID: 836460962}
 --- !u!1 &732878035
 GameObject:
@@ -873,7 +867,7 @@ GameObject:
   - component: {fileID: 836460962}
   m_Layer: 5
   m_Name: Locked Levels
-  m_TagString: Untagged
+  m_TagString: World1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1094,7 +1088,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1014435435}
-        m_TargetAssemblyTypeName: BuyButton, Assembly-CSharp
+        m_TargetAssemblyTypeName: UnlockButton, Assembly-CSharp
         m_MethodName: OnClickUnlockLevel
         m_Mode: 1
         m_Arguments:
@@ -1152,13 +1146,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1014435429}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbb18a362d083784db76370417400a68, type: 3}
+  m_Script: {fileID: 11500000, guid: b75ba5f6f7008104fb40f8c92fecbf0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  item: 0
   Level: 1
-  Price: 0
-  buyManager: {fileID: 0}
   levelBuyManager: {fileID: 836460962}
 --- !u!1 &1131006226
 GameObject:
@@ -1244,7 +1235,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1131006232}
-        m_TargetAssemblyTypeName: BuyButton, Assembly-CSharp
+        m_TargetAssemblyTypeName: UnlockButton, Assembly-CSharp
         m_MethodName: OnClickUnlockLevel
         m_Mode: 1
         m_Arguments:
@@ -1302,13 +1293,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1131006226}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbb18a362d083784db76370417400a68, type: 3}
+  m_Script: {fileID: 11500000, guid: b75ba5f6f7008104fb40f8c92fecbf0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  item: 0
   Level: 4
-  Price: 0
-  buyManager: {fileID: 0}
   levelBuyManager: {fileID: 836460962}
 --- !u!1 &1221806017
 GameObject:

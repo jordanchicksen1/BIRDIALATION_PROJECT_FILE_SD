@@ -10,14 +10,12 @@ public class BuyButton : MonoBehaviour
     [SerializeField]
     private int Level;
 
-    [SerializeField]
-    private int Price;
+
 
     [SerializeField]
     private TimBuyManager buyManager;
 
-    [SerializeField]
-    private LevelBuyManager levelBuyManager;
+   
 
     public void OnBuyClick()
     {
@@ -32,8 +30,5 @@ public class BuyButton : MonoBehaviour
 
     }
 
-    public void OnClickUnlockLevel()
-    {
-        levelBuyManager.UnlockLevel(Level);
-    }
+   
 }

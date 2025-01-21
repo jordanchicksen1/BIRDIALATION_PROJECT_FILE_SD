@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -18,6 +19,23 @@ public class TimBuyManager : MonoBehaviour
     private List<int> WeaponPrices;
 
     public SaveManager saveManager;
+
+   
+
+    [Header("World GameObjects")]
+    [SerializeField]
+    private LevelBuyManager World1;
+    [SerializeField]
+    private LevelBuyManager World2;
+    [SerializeField]
+    private LevelBuyManager World3;
+
+    [SerializeField]
+    private GameObject ResetWorld1;
+    [SerializeField]
+    private GameObject ResetWorld2;
+    [SerializeField]
+    private GameObject ResetWorld3;
     private void Start()
     {
         LoadData();
@@ -195,5 +213,30 @@ public class TimBuyManager : MonoBehaviour
         PlayerPrefs.Save();
         LoadData();
         Debug.Log("Data Reset to Default State!");
+
+        StartCoroutine(ResetAllData());
+
+    }
+
+    IEnumerator ResetAllData()
+    {
+        SceneManager.LoadScene("Part01");
+        yield return new WaitForSeconds(0.5f);
+        ResetWorld1 = GameObject.FindGameObjectWithTag("World1");
+        World1 = ResetWorld1.GetComponent<LevelBuyManager>();
+        World1.ResetData();
+
+        SceneManager.LoadScene("Part02");
+        yield return new WaitForSeconds(0.5f);
+        ResetWorld2 = GameObject.FindGameObjectWithTag("World2");
+        World2 = ResetWorld2.GetComponent<LevelBuyManager>();
+        World2.ResetData();
+
+        SceneManager.LoadScene("Part03");
+        yield return new WaitForSeconds(0.5f);
+        ResetWorld3 = GameObject.FindGameObjectWithTag("World3");
+        World3 = ResetWorld3.GetComponent<LevelBuyManager>();
+        World3.ResetData();
+
     }
 }

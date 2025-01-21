@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 public class LevelBuyManager : MonoBehaviour
 {
     public List<GameObject> Locks;     // List of lock GameObjects
-    public List<GameObject> Buttons;  // List of buttons associated with locks
     private bool[] unlockedItems;      // Tracks which items are unlocked
 
 
@@ -67,14 +66,13 @@ public class LevelBuyManager : MonoBehaviour
             Locks[index] = null; // Clear the reference
         }
 
-        if (Buttons[index] != null)
-        {
-            Destroy(Buttons[index]);
-            Buttons[index] = null; // Clear the reference
-        }
+        
 
         unlockedItems[index] = true; // Mark item as unlocked
         Debug.Log("Unlocked item and destroyed button at index: " + index);
+
+
+        print("Why are you iunlocking");
     }
 
     private void UpdateLocksAndButtons()
@@ -89,11 +87,7 @@ public class LevelBuyManager : MonoBehaviour
                     Locks[i] = null; // Clear the reference
                 }
 
-                if (Buttons[i] != null)
-                {
-                    Buttons[i].SetActive(false);
-                    Buttons[i] = null; // Clear the reference
-                }
+                
             }
         }
     }
@@ -144,15 +138,7 @@ public class LevelBuyManager : MonoBehaviour
                 Locks[i].SetActive(true);
             }
 
-            if (Buttons[i] == null)
-            {
-
-                Debug.LogWarning($"Button {i + 1} is missing. Please ensure prefabs are set up.");
-            }
-            else
-            {
-                Buttons[i].SetActive(true);
-            }
+            
         }
 
         PlayerPrefs.Save();

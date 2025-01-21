@@ -154,7 +154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbb18a362d083784db76370417400a68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  item: 1
+  item: 0
   Level: 3
   Price: 0
   buyManager: {fileID: 0}
@@ -500,7 +500,7 @@ GameObject:
   - component: {fileID: 106905447}
   m_Layer: 5
   m_Name: Locked Levels
-  m_TagString: Untagged
+  m_TagString: World2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -945,7 +945,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbb18a362d083784db76370417400a68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  item: 1
+  item: 0
   Level: 4
   Price: 0
   buyManager: {fileID: 0}
@@ -1571,7 +1571,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbb18a362d083784db76370417400a68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  item: 1
+  item: 0
   Level: 2
   Price: 0
   buyManager: {fileID: 0}
@@ -2236,7 +2236,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbb18a362d083784db76370417400a68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  item: 1
+  item: 0
   Level: 6
   Price: 0
   buyManager: {fileID: 0}
@@ -2883,7 +2883,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbb18a362d083784db76370417400a68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  item: 1
+  item: 0
   Level: 1
   Price: 0
   buyManager: {fileID: 0}
