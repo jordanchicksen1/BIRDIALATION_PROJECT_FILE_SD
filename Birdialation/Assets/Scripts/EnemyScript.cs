@@ -54,6 +54,7 @@ public class EnemyScript : MonoBehaviour
                 Destroy(child.gameObject);
             }
             saveManager.AddCoins(coinsCollected);
+            saveManager.AddCoins(5);
             Destroy(gameObject);
             SceneManager.LoadScene("Part01");
         }
@@ -67,6 +68,7 @@ public class EnemyScript : MonoBehaviour
             }
 
             saveManager.AddCoins(coinsCollected);
+            saveManager.AddCoins(5);
             Destroy(gameObject);
             SceneManager.LoadScene("Part02");
         }
@@ -80,6 +82,7 @@ public class EnemyScript : MonoBehaviour
             }
 
             saveManager.AddCoins(coinsCollected);    
+            saveManager.AddCoins(10);
             Destroy(gameObject);
             SceneManager.LoadScene("Part03");
         }
@@ -93,6 +96,7 @@ public class EnemyScript : MonoBehaviour
             }
 
             saveManager.AddCoins(coinsCollected);
+            saveManager.AddCoins(10);
             Destroy(gameObject);
             SceneManager.LoadScene("MainMenu");
         }
@@ -106,6 +110,7 @@ public class EnemyScript : MonoBehaviour
             }
 
             saveManager.AddCoins(coinsCollected);
+            saveManager.AddCoins(10);
             Destroy(gameObject);
             SceneManager.LoadScene("Part01");
         }
@@ -119,6 +124,7 @@ public class EnemyScript : MonoBehaviour
             }
 
             saveManager.AddCoins(coinsCollected);
+            saveManager.AddCoins(10);
             Destroy(gameObject);
             SceneManager.LoadScene("Part02");
         }
@@ -132,6 +138,7 @@ public class EnemyScript : MonoBehaviour
             }
 
             saveManager.AddCoins(coinsCollected);
+            saveManager.AddCoins(10);
             Destroy(gameObject);
             SceneManager.LoadScene("Part03");
         }

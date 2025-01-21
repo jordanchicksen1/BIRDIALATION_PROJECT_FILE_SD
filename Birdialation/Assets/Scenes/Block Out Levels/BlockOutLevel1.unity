@@ -169,7 +169,6 @@ Transform:
   - {fileID: 1784642791}
   - {fileID: 1550560279}
   - {fileID: 194289267}
-  - {fileID: 962824332}
   - {fileID: 2030457472}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1874,8 +1873,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item: 4
+  Level: 0
   Price: 0
   buyManager: {fileID: 86057810}
+  levelBuyManager: {fileID: 0}
 --- !u!1 &155138343 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5983810680575814152, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
@@ -1949,8 +1950,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item: 4
+  Level: 0
   Price: 0
   buyManager: {fileID: 86057810}
+  levelBuyManager: {fileID: 0}
 --- !u!1 &253554681
 GameObject:
   m_ObjectHideFlags: 0
@@ -2873,8 +2876,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item: 2
+  Level: 0
   Price: 0
   buyManager: {fileID: 86057810}
+  levelBuyManager: {fileID: 0}
 --- !u!1001 &802376794
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3104,8 +3109,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item: 5
+  Level: 0
   Price: 0
   buyManager: {fileID: 86057810}
+  levelBuyManager: {fileID: 0}
 --- !u!1001 &921223353
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3757,37 +3764,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0bfbd1bb0133224eb8989878f3ce51d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &962824331
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 962824332}
-  m_Layer: 0
-  m_Name: StarCount Manager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &962824332
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 962824331}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 25889339}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1026569744
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4110,8 +4086,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item: 6
+  Level: 0
   Price: 0
   buyManager: {fileID: 86057810}
+  levelBuyManager: {fileID: 0}
 --- !u!1 &1158667659 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4393694970390504795, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
@@ -4130,8 +4108,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item: 2
+  Level: 0
   Price: 0
   buyManager: {fileID: 86057810}
+  levelBuyManager: {fileID: 0}
 --- !u!1 &1172455423 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9117385250224229463, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
@@ -4155,8 +4135,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item: 6
+  Level: 0
   Price: 0
   buyManager: {fileID: 86057810}
+  levelBuyManager: {fileID: 0}
 --- !u!1 &1254221501 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4681256895740046450, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
@@ -4175,8 +4157,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item: 3
+  Level: 0
   Price: 0
   buyManager: {fileID: 86057810}
+  levelBuyManager: {fileID: 0}
 --- !u!1 &1277574605 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4810105198994836941, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
@@ -4608,8 +4592,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item: 5
+  Level: 0
   Price: 0
   buyManager: {fileID: 86057810}
+  levelBuyManager: {fileID: 0}
 --- !u!1 &1610146182 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4320337542126293146, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
@@ -4628,8 +4614,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item: 1
+  Level: 0
   Price: 0
   buyManager: {fileID: 86057810}
+  levelBuyManager: {fileID: 0}
 --- !u!1 &1616421928 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2175011869441259431, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
@@ -4648,8 +4636,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item: 3
+  Level: 0
   Price: 0
   buyManager: {fileID: 86057810}
+  levelBuyManager: {fileID: 0}
 --- !u!1 &1682849868 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5184741581686504820, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
@@ -5659,8 +5649,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item: 1
+  Level: 0
   Price: 100
   buyManager: {fileID: 86057810}
+  levelBuyManager: {fileID: 0}
 --- !u!1 &2030457471
 GameObject:
   m_ObjectHideFlags: 0
