@@ -1823,6 +1823,12 @@ MonoBehaviour:
   SlingPosition: {fileID: 656761257}
   WeaponPrices: 00000000000000000f000000050000000a0000000f000000
   saveManager: {fileID: 194289268}
+  World1: {fileID: 0}
+  World2: {fileID: 0}
+  World3: {fileID: 0}
+  ResetWorld1: {fileID: 0}
+  ResetWorld2: {fileID: 0}
+  ResetWorld3: {fileID: 0}
 --- !u!1 &91142621
 GameObject:
   m_ObjectHideFlags: 0
@@ -1874,9 +1880,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: 4
   Level: 0
-  Price: 0
   buyManager: {fileID: 86057810}
-  levelBuyManager: {fileID: 0}
 --- !u!1 &155138343 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5983810680575814152, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
@@ -1951,9 +1955,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: 4
   Level: 0
-  Price: 0
   buyManager: {fileID: 86057810}
-  levelBuyManager: {fileID: 0}
 --- !u!1 &253554681
 GameObject:
   m_ObjectHideFlags: 0
@@ -2500,9 +2502,13 @@ PrefabInstance:
       value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 4217682406587334611, guid: 39361798f10b90c4995c672874dd23dd, type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4217682406587334611, guid: 39361798f10b90c4995c672874dd23dd, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: f999eb87703a0f54ebb12705fa846d52, type: 3}
+      objectReference: {fileID: 21300000, guid: dbd995c958e5b8e4ba71beaac68e1058, type: 3}
     - target: {fileID: 4217682406587334611, guid: 39361798f10b90c4995c672874dd23dd, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -2877,9 +2883,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: 2
   Level: 0
-  Price: 0
   buyManager: {fileID: 86057810}
-  levelBuyManager: {fileID: 0}
 --- !u!1001 &802376794
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3110,9 +3114,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: 5
   Level: 0
-  Price: 0
   buyManager: {fileID: 86057810}
-  levelBuyManager: {fileID: 0}
 --- !u!1001 &921223353
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3743,6 +3745,10 @@ PrefabInstance:
       propertyPath: Weapons
       value: 
       objectReference: {fileID: 1784029362}
+    - target: {fileID: 7992841442138905911, guid: 25c5797a7d76d0a4fb0280ee749d0bd5, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 101db50ecd5e7c54586bfe3421918598, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4087,9 +4093,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: 6
   Level: 0
-  Price: 0
   buyManager: {fileID: 86057810}
-  levelBuyManager: {fileID: 0}
 --- !u!1 &1158667659 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4393694970390504795, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
@@ -4109,9 +4113,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: 2
   Level: 0
-  Price: 0
   buyManager: {fileID: 86057810}
-  levelBuyManager: {fileID: 0}
 --- !u!1 &1172455423 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9117385250224229463, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
@@ -4136,9 +4138,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: 6
   Level: 0
-  Price: 0
   buyManager: {fileID: 86057810}
-  levelBuyManager: {fileID: 0}
 --- !u!1 &1254221501 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4681256895740046450, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
@@ -4158,9 +4158,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: 3
   Level: 0
-  Price: 0
   buyManager: {fileID: 86057810}
-  levelBuyManager: {fileID: 0}
 --- !u!1 &1277574605 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4810105198994836941, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
@@ -4547,7 +4545,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 5bf19c29e4d330043acbb16b62df10b3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7bd2c7a7ae60b924787e2f14fb0c267b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4593,9 +4591,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: 5
   Level: 0
-  Price: 0
   buyManager: {fileID: 86057810}
-  levelBuyManager: {fileID: 0}
 --- !u!1 &1610146182 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4320337542126293146, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
@@ -4615,9 +4611,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: 1
   Level: 0
-  Price: 0
   buyManager: {fileID: 86057810}
-  levelBuyManager: {fileID: 0}
 --- !u!1 &1616421928 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2175011869441259431, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
@@ -4637,9 +4631,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: 3
   Level: 0
-  Price: 0
   buyManager: {fileID: 86057810}
-  levelBuyManager: {fileID: 0}
 --- !u!1 &1682849868 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5184741581686504820, guid: bb8338d7d5f024d4dbadcd24159dc86a, type: 3}
@@ -5650,9 +5642,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: 1
   Level: 0
-  Price: 100
   buyManager: {fileID: 86057810}
-  levelBuyManager: {fileID: 0}
 --- !u!1 &2030457471
 GameObject:
   m_ObjectHideFlags: 0

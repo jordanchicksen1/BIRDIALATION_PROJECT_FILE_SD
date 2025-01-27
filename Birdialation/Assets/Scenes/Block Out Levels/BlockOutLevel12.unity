@@ -2568,9 +2568,13 @@ PrefabInstance:
       value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 4217682406587334611, guid: 39361798f10b90c4995c672874dd23dd, type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4217682406587334611, guid: 39361798f10b90c4995c672874dd23dd, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 19813f96bd9bb534e92680034ea40abd, type: 3}
+      objectReference: {fileID: 21300000, guid: 09eaa8f0b83a72a40831ad4a8fca0e4b, type: 3}
     - target: {fileID: 4217682406587334611, guid: 39361798f10b90c4995c672874dd23dd, type: 3}
       propertyPath: m_Color.b
       value: 1
