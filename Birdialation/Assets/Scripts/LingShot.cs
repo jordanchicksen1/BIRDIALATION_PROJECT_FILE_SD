@@ -13,7 +13,6 @@ public class SlingShot : MonoBehaviour
     private bool isDragging = false;       // Flag to track whether the projectile is being dragged
     public GameObject newRock;
 
-    public bool workForFUckSake;
 
     [SerializeField]
     public GameObject WeaponPosition;

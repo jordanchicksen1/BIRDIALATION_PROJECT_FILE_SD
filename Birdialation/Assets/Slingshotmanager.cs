@@ -10,9 +10,14 @@ public class Slingshotmanager : MonoBehaviour
 
     public GameObject losePanel;
 
+    [Header("Insults")]
+    public GameObject InsultsGameObject;
+    public InsultsScript InsultsScript;
+
     void Start()
     {
-
+        InsultsGameObject = GameObject.FindGameObjectWithTag("Insults");
+        InsultsScript = InsultsGameObject.GetComponent<InsultsScript>();
     }
     private void Update()
     {
@@ -25,7 +30,7 @@ public class Slingshotmanager : MonoBehaviour
     public void NextWeapon()
     {
         shotsTaken++;
-
+        InsultsScript.Insult();
         if (shotsTaken < 10)
         {
             SlingShotGameObject.RemoveAt(0);
