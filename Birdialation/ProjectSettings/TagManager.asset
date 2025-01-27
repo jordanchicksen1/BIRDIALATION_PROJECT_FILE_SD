@@ -30,6 +30,7 @@ TagManager:
   - WeaponParent
   - Coin
   - SaveManager
+  - Insults
   layers:
   - Default
   - TransparentFX
