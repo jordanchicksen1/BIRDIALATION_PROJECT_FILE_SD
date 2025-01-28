@@ -1784,6 +1784,63 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1944621744
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5215960610410768803, guid: ff60f31368e6f1f4d98d4e89ca76862b, type: 3}
+      propertyPath: m_Name
+      value: caveBackground
+      objectReference: {fileID: 0}
+    - target: {fileID: 7488618176698755074, guid: ff60f31368e6f1f4d98d4e89ca76862b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.035376668
+      objectReference: {fileID: 0}
+    - target: {fileID: 7488618176698755074, guid: ff60f31368e6f1f4d98d4e89ca76862b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.028531492
+      objectReference: {fileID: 0}
+    - target: {fileID: 7488618176698755074, guid: ff60f31368e6f1f4d98d4e89ca76862b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7488618176698755074, guid: ff60f31368e6f1f4d98d4e89ca76862b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7488618176698755074, guid: ff60f31368e6f1f4d98d4e89ca76862b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7488618176698755074, guid: ff60f31368e6f1f4d98d4e89ca76862b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7488618176698755074, guid: ff60f31368e6f1f4d98d4e89ca76862b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7488618176698755074, guid: ff60f31368e6f1f4d98d4e89ca76862b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7488618176698755074, guid: ff60f31368e6f1f4d98d4e89ca76862b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7488618176698755074, guid: ff60f31368e6f1f4d98d4e89ca76862b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ff60f31368e6f1f4d98d4e89ca76862b, type: 3}
 --- !u!1 &1973086333
 GameObject:
   m_ObjectHideFlags: 0
@@ -3826,6 +3883,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: darkerRockyBackground
       objectReference: {fileID: 0}
+    - target: {fileID: 7184810803182191952, guid: 1a38910863475f74d9d3a0cae4d7396d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8341869052076210567, guid: 1a38910863475f74d9d3a0cae4d7396d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.0129
@@ -3886,3 +3947,4 @@ SceneRoots:
   - {fileID: 817818847}
   - {fileID: 667613163}
   - {fileID: 1630341622}
+  - {fileID: 1944621744}
