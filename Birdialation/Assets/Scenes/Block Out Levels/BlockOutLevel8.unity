@@ -3005,6 +3005,67 @@ PolygonCollider2D:
       - {x: 0.4453811, y: 0.49920714}
       - {x: 0.27678263, y: 0.50120413}
   m_UseDelaunayMesh: 0
+--- !u!1001 &1325217105
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 994961459391620508, guid: dd431d81bd21fbb4db784dcf103acb3c, type: 3}
+      propertyPath: m_Name
+      value: newCaveBackground
+      objectReference: {fileID: 0}
+    - target: {fileID: 5318395552751188854, guid: dd431d81bd21fbb4db784dcf103acb3c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 5318395552751188854, guid: dd431d81bd21fbb4db784dcf103acb3c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.10637842
+      objectReference: {fileID: 0}
+    - target: {fileID: 5318395552751188854, guid: dd431d81bd21fbb4db784dcf103acb3c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 5318395552751188854, guid: dd431d81bd21fbb4db784dcf103acb3c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5318395552751188854, guid: dd431d81bd21fbb4db784dcf103acb3c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5318395552751188854, guid: dd431d81bd21fbb4db784dcf103acb3c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5318395552751188854, guid: dd431d81bd21fbb4db784dcf103acb3c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5318395552751188854, guid: dd431d81bd21fbb4db784dcf103acb3c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5318395552751188854, guid: dd431d81bd21fbb4db784dcf103acb3c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5318395552751188854, guid: dd431d81bd21fbb4db784dcf103acb3c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5318395552751188854, guid: dd431d81bd21fbb4db784dcf103acb3c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dd431d81bd21fbb4db784dcf103acb3c, type: 3}
 --- !u!1 &1390151204
 GameObject:
   m_ObjectHideFlags: 0
@@ -3048,6 +3109,10 @@ PrefabInstance:
     - target: {fileID: 5215960610410768803, guid: ff60f31368e6f1f4d98d4e89ca76862b, type: 3}
       propertyPath: m_Name
       value: caveBackground
+      objectReference: {fileID: 0}
+    - target: {fileID: 5215960610410768803, guid: ff60f31368e6f1f4d98d4e89ca76862b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7488618176698755074, guid: ff60f31368e6f1f4d98d4e89ca76862b, type: 3}
       propertyPath: m_LocalScale.y
@@ -4515,3 +4580,4 @@ SceneRoots:
   - {fileID: 179492549}
   - {fileID: 1198244862}
   - {fileID: 1415923607}
+  - {fileID: 1325217105}
