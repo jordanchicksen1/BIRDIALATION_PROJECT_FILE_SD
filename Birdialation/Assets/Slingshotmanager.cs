@@ -18,6 +18,7 @@ public class Slingshotmanager : MonoBehaviour
     {
         InsultsGameObject = GameObject.FindGameObjectWithTag("Insults");
         InsultsScript = InsultsGameObject.GetComponent<InsultsScript>();
+        losePanel = GameObject.FindGameObjectWithTag("LosePanel");
     }
     private void Update()
     {
@@ -36,8 +37,8 @@ public class Slingshotmanager : MonoBehaviour
             SlingShotGameObject.RemoveAt(0);
         }else if (shotsTaken >= 10)
         {
-            //StartCoroutine(ShowLosePanel());
-            print("You lose");
+            StartCoroutine(ShowLosePanel());
+           
         }
         
 
@@ -46,7 +47,9 @@ public class Slingshotmanager : MonoBehaviour
     IEnumerator ShowLosePanel()
     {
         yield return new WaitForSeconds(5);
-        Instantiate(losePanel);
+        losePanel.SetActive(true);
+        print("You lose");
+
         shotsTaken = 0;
     }
 }
